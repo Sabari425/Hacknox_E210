@@ -574,7 +574,6 @@ class DataManager:
     def generate_team_data(_team_name: str, size: int) -> pd.DataFrame:
         """Generate realistic team data with enhanced metrics"""
         try:
-            # Set seed for reproducibility
             seed = hash(_team_name) % 10000
             random.seed(seed)
             np.random.seed(seed)
