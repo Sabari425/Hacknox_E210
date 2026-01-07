@@ -17,7 +17,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-/* GitHub Dark Theme - Enhanced for Block Layout */
+
 :root {
     --bg-primary: #0d1117;
     --bg-secondary: #161b22;
@@ -34,14 +34,14 @@ st.markdown("""
     --accent-orange: #db6d28;
 }
 
-/* Base app styling */
+
 .stApp {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-/* Headers */
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary) !important;
     font-weight: 600 !important;
@@ -57,7 +57,7 @@ h2 { font-size: 20px; }
 h3 { font-size: 16px; }
 h4 { font-size: 14px; }
 
-/* GitHub-style navigation */
+
 .github-header {
     position: sticky;
     top: 0;
@@ -68,7 +68,6 @@ h4 { font-size: 14px; }
     margin: -16px -16px 24px -16px;
 }
 
-/* GitHub-style tabs */
 .github-tabs {
     display: flex;
     border-bottom: 1px solid var(--border-color);
@@ -95,7 +94,7 @@ h4 { font-size: 14px; }
     font-weight: 600;
 }
 
-/* Insight Layer Cards */
+
 .insight-card {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -121,7 +120,6 @@ h4 { font-size: 14px; }
     line-height: 1.5;
 }
 
-/* Contribution Role Blocks */
 .role-block {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -177,7 +175,6 @@ h4 { font-size: 14px; }
     margin-right: 6px;
 }
 
-/* Repository Structure */
 .repo-card {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -224,7 +221,6 @@ h4 { font-size: 14px; }
 .file-icon-code { color: var(--accent-blue); }
 .file-icon-doc { color: var(--text-tertiary); }
 
-/* Four Quadrant Graph */
 .quadrant-graph {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -245,7 +241,6 @@ h4 { font-size: 14px; }
 .q3-label { color: var(--accent-yellow); bottom: 20px; left: 20px; }
 .q4-label { color: var(--accent-blue); bottom: 20px; right: 20px; }
 
-/* Member Detail View */
 .member-detail-section {
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -275,7 +270,6 @@ h4 { font-size: 14px; }
     color: var(--text-primary);
 }
 
-/* Dataframes with GitHub styling */
 .dataframe {
     background-color: var(--bg-primary) !important;
     border: 1px solid var(--border-color) !important;
@@ -299,7 +293,6 @@ h4 { font-size: 14px; }
     background-color: var(--bg-tertiary) !important;
 }
 
-/* GitHub-style buttons */
 .stButton button {
     background-color: var(--bg-tertiary) !important;
     color: var(--text-primary) !important;
@@ -329,7 +322,6 @@ h4 { font-size: 14px; }
     border-color: #2ea043 !important;
 }
 
-/* Inputs with GitHub styling */
 .stTextInput input, .stSelectbox select, .stMultiselect div, .stDateInput input, .stSlider div {
     background-color: var(--bg-primary) !important;
     color: var(--text-primary) !important;
@@ -350,7 +342,6 @@ h4 { font-size: 14px; }
     margin-bottom: 4px !important;
 }
 
-/* Metrics with GitHub styling */
 .stMetric {
     background-color: var(--bg-secondary) !important;
     border: 1px solid var(--border-color) !important;
@@ -368,7 +359,6 @@ h4 { font-size: 14px; }
     font-weight: 600 !important;
 }
 
-/* Tabs styling */
 .stTabs [data-baseweb="tab-list"] {
     gap: 8px;
     background-color: transparent;
@@ -391,7 +381,6 @@ h4 { font-size: 14px; }
     font-weight: 600 !important;
 }
 
-/* Expanders */
 .streamlit-expanderHeader {
     background-color: var(--bg-secondary) !important;
     color: var(--text-primary) !important;
@@ -404,12 +393,10 @@ h4 { font-size: 14px; }
     border-color: var(--border-color) !important;
 }
 
-/* Progress bars */
 .stProgress > div > div {
     background-color: var(--accent-blue) !important;
 }
 
-/* Success/Error/Info/Warning */
 .stAlert {
     border-radius: 6px !important;
     border: 1px solid var(--border-color) !important;
@@ -432,7 +419,6 @@ h4 { font-size: 14px; }
     border-color: var(--accent-yellow) !important;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -448,12 +434,10 @@ h4 { font-size: 14px; }
     background: var(--text-tertiary);
 }
 
-/* Remove Streamlit branding */
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header { visibility: hidden; }
 
-/* Status indicators */
 .status-indicator {
     display: inline-block;
     width: 8px;
@@ -466,13 +450,11 @@ header { visibility: hidden; }
 .status-warning { background-color: var(--accent-yellow); }
 .status-error { background-color: var(--accent-red); }
 
-/* Avatar styling */
 .avatar {
     border-radius: 50%;
     object-fit: cover;
 }
 
-/* Badge styling */
 .badge {
     display: inline-block;
     padding: 2px 8px;
@@ -489,13 +471,12 @@ header { visibility: hidden; }
 .badge-gray { background-color: var(--bg-tertiary); color: var(--text-secondary); }
 .badge-orange { background-color: var(--accent-orange); color: white; }
 
-/* Spacing system */
+
 .spacing-8 { margin-bottom: 8px; }
 .spacing-16 { margin-bottom: 16px; }
 .spacing-24 { margin-bottom: 24px; }
 .spacing-32 { margin-bottom: 32px; }
 
-/* Grid layouts */
 .grid-2x3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -507,7 +488,6 @@ header { visibility: hidden; }
     }
 }
 
-/* Focus ring for accessibility */
 *:focus {
     outline: 2px solid var(--accent-blue);
     outline-offset: 2px;
@@ -574,6 +554,7 @@ class DataManager:
     def generate_team_data(_team_name: str, size: int) -> pd.DataFrame:
         """Generate realistic team data with enhanced metrics"""
         try:
+            # Set seed for reproducibility
             seed = hash(_team_name) % 10000
             random.seed(seed)
             np.random.seed(seed)
