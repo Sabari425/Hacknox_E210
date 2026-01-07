@@ -1,0 +1,152 @@
+[
+  {
+    "actor": "andrzejdoros",
+    "role": "Silent Architect",
+    "average_impact": 6.0,
+    "events": 1
+  },
+  {
+    "actor": "YuriiMotov",
+    "role": "Builder",
+    "average_impact": 5.0,
+    "events": 8
+  },
+  {
+    "actor": "tiangolo",
+    "role": "Firefighter",
+    "average_impact": 3.62,
+    "events": 66
+  },
+  {
+    "actor": "fbidu",
+    "role": "Builder",
+    "average_impact": 3.0,
+    "events": 1
+  },
+  {
+    "actor": "boreyleang",
+    "role": "Builder",
+    "average_impact": 3.0,
+    "events": 1
+  },
+  {
+    "actor": "MarinPostma",
+    "role": "Builder",
+    "average_impact": 3.0,
+    "events": 1
+  },
+  {
+    "actor": "DuplosFidibuss",
+    "role": "Builder",
+    "average_impact": 3.0,
+    "events": 1
+  },
+  {
+    "actor": "paras-verma7454",
+    "role": "Builder",
+    "average_impact": 3.0,
+    "events": 1
+  },
+  {
+    "actor": "nilslindemann",
+    "role": "Builder",
+    "average_impact": 2.33,
+    "events": 3
+  },
+  {
+    "actor": "Kludex",
+    "role": "Builder",
+    "average_impact": 2.0,
+    "events": 1
+  },
+  {
+    "actor": "zowi-net",
+    "role": "Builder",
+    "average_impact": 2.0,
+    "events": 1
+  },
+  {
+    "actor": "johnslavik",
+    "role": "Builder",
+    "average_impact": 2.0,
+    "events": 2
+  },
+  {
+    "actor": "marcelomarkus",
+    "role": "Builder",
+    "average_impact": 2.0,
+    "events": 1
+  },
+  {
+    "actor": "SBillion",
+    "role": "Builder",
+    "average_impact": 2.0,
+    "events": 2
+  },
+  {
+    "actor": "github-actions[bot]",
+    "role": "Noisy Contributor",
+    "average_impact": 1.0,
+    "events": 19
+  },
+  {
+    "actor": "LakshmiMandal",
+    "role": "Noisy Contributor",
+    "average_impact": 1.0,
+    "events": 10
+  },
+  {
+    "actor": "xdewx",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "vardhan30016",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "krishnamurthy-srinivasan",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "UnkownHunter",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "pinky2004-dot",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "GabeCloy",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "qiusheng2011",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "harol97",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  },
+  {
+    "actor": "SobikXexe",
+    "role": "Builder",
+    "average_impact": 1.0,
+    "events": 1
+  }
+]

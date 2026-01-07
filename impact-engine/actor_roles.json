@@ -1,0 +1,127 @@
+{
+  "github-actions[bot]": {
+    "role": "Noisy Contributor",
+    "avg_impact": 1.0,
+    "events": 19
+  },
+  "tiangolo": {
+    "role": "Firefighter",
+    "avg_impact": 3.62,
+    "events": 66
+  },
+  "YuriiMotov": {
+    "role": "Builder",
+    "avg_impact": 5.0,
+    "events": 8
+  },
+  "nilslindemann": {
+    "role": "Builder",
+    "avg_impact": 2.33,
+    "events": 3
+  },
+  "LakshmiMandal": {
+    "role": "Noisy Contributor",
+    "avg_impact": 1.0,
+    "events": 10
+  },
+  "Kludex": {
+    "role": "Builder",
+    "avg_impact": 2.0,
+    "events": 1
+  },
+  "xdewx": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "vardhan30016": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "fbidu": {
+    "role": "Builder",
+    "avg_impact": 3.0,
+    "events": 1
+  },
+  "krishnamurthy-srinivasan": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "boreyleang": {
+    "role": "Builder",
+    "avg_impact": 3.0,
+    "events": 1
+  },
+  "UnkownHunter": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "pinky2004-dot": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "GabeCloy": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "andrzejdoros": {
+    "role": "Silent Architect",
+    "avg_impact": 6.0,
+    "events": 1
+  },
+  "qiusheng2011": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "harol97": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "zowi-net": {
+    "role": "Builder",
+    "avg_impact": 2.0,
+    "events": 1
+  },
+  "MarinPostma": {
+    "role": "Builder",
+    "avg_impact": 3.0,
+    "events": 1
+  },
+  "DuplosFidibuss": {
+    "role": "Builder",
+    "avg_impact": 3.0,
+    "events": 1
+  },
+  "SobikXexe": {
+    "role": "Builder",
+    "avg_impact": 1.0,
+    "events": 1
+  },
+  "paras-verma7454": {
+    "role": "Builder",
+    "avg_impact": 3.0,
+    "events": 1
+  },
+  "johnslavik": {
+    "role": "Builder",
+    "avg_impact": 2.0,
+    "events": 2
+  },
+  "marcelomarkus": {
+    "role": "Builder",
+    "avg_impact": 2.0,
+    "events": 1
+  },
+  "SBillion": {
+    "role": "Builder",
+    "avg_impact": 2.0,
+    "events": 2
+  }
+}

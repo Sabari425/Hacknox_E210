@@ -1,0 +1,152 @@
+[
+  {
+    "actor": "github-actions[bot]",
+    "activity": 19,
+    "impact": 1.0,
+    "role": "Noisy Contributor"
+  },
+  {
+    "actor": "tiangolo",
+    "activity": 66,
+    "impact": 3.62,
+    "role": "Firefighter"
+  },
+  {
+    "actor": "YuriiMotov",
+    "activity": 8,
+    "impact": 5.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "nilslindemann",
+    "activity": 3,
+    "impact": 2.33,
+    "role": "Builder"
+  },
+  {
+    "actor": "LakshmiMandal",
+    "activity": 10,
+    "impact": 1.0,
+    "role": "Noisy Contributor"
+  },
+  {
+    "actor": "Kludex",
+    "activity": 1,
+    "impact": 2.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "xdewx",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "vardhan30016",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "fbidu",
+    "activity": 1,
+    "impact": 3.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "krishnamurthy-srinivasan",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "boreyleang",
+    "activity": 1,
+    "impact": 3.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "UnkownHunter",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "pinky2004-dot",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "GabeCloy",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "andrzejdoros",
+    "activity": 1,
+    "impact": 6.0,
+    "role": "Silent Architect"
+  },
+  {
+    "actor": "qiusheng2011",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "harol97",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "zowi-net",
+    "activity": 1,
+    "impact": 2.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "MarinPostma",
+    "activity": 1,
+    "impact": 3.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "DuplosFidibuss",
+    "activity": 1,
+    "impact": 3.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "SobikXexe",
+    "activity": 1,
+    "impact": 1.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "paras-verma7454",
+    "activity": 1,
+    "impact": 3.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "johnslavik",
+    "activity": 2,
+    "impact": 2.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "marcelomarkus",
+    "activity": 1,
+    "impact": 2.0,
+    "role": "Builder"
+  },
+  {
+    "actor": "SBillion",
+    "activity": 2,
+    "impact": 2.0,
+    "role": "Builder"
+  }
+]

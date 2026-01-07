@@ -1,0 +1,152 @@
+{
+  "github-actions[bot]": {
+    "role": "Noisy Contributor",
+    "average_impact": 1.0,
+    "total_events": 19,
+    "explanation": "High activity (19 events) but consistently low impact (average impact score 1.0). Contributions were largely minor and did not significantly affect outcomes."
+  },
+  "tiangolo": {
+    "role": "Firefighter",
+    "average_impact": 3.62,
+    "total_events": 66,
+    "explanation": "Handled multiple high-impact situations (7 critical events), often addressing urgent or breaking issues. Average impact score of 3.62 reflects reactive but valuable contributions."
+  },
+  "YuriiMotov": {
+    "role": "Builder",
+    "average_impact": 5.0,
+    "total_events": 8,
+    "explanation": "Steady contributor with balanced participation (8 events). Average impact score of 5.0 reflects reliable execution."
+  },
+  "nilslindemann": {
+    "role": "Builder",
+    "average_impact": 2.33,
+    "total_events": 3,
+    "explanation": "Steady contributor with balanced participation (3 events). Average impact score of 2.33 reflects reliable execution."
+  },
+  "LakshmiMandal": {
+    "role": "Noisy Contributor",
+    "average_impact": 1.0,
+    "total_events": 10,
+    "explanation": "High activity (10 events) but consistently low impact (average impact score 1.0). Contributions were largely minor and did not significantly affect outcomes."
+  },
+  "Kludex": {
+    "role": "Builder",
+    "average_impact": 2.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 2.0 reflects reliable execution."
+  },
+  "xdewx": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "vardhan30016": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "fbidu": {
+    "role": "Builder",
+    "average_impact": 3.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 3.0 reflects reliable execution."
+  },
+  "krishnamurthy-srinivasan": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "boreyleang": {
+    "role": "Builder",
+    "average_impact": 3.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 3.0 reflects reliable execution."
+  },
+  "UnkownHunter": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "pinky2004-dot": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "GabeCloy": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "andrzejdoros": {
+    "role": "Silent Architect",
+    "average_impact": 6.0,
+    "total_events": 1,
+    "explanation": "Delivered high-impact contributions with low visible activity. Despite only 1 events, work had strong influence (average impact 6.0)."
+  },
+  "qiusheng2011": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "harol97": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "zowi-net": {
+    "role": "Builder",
+    "average_impact": 2.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 2.0 reflects reliable execution."
+  },
+  "MarinPostma": {
+    "role": "Builder",
+    "average_impact": 3.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 3.0 reflects reliable execution."
+  },
+  "DuplosFidibuss": {
+    "role": "Builder",
+    "average_impact": 3.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 3.0 reflects reliable execution."
+  },
+  "SobikXexe": {
+    "role": "Builder",
+    "average_impact": 1.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 1.0 reflects reliable execution."
+  },
+  "paras-verma7454": {
+    "role": "Builder",
+    "average_impact": 3.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 3.0 reflects reliable execution."
+  },
+  "johnslavik": {
+    "role": "Builder",
+    "average_impact": 2.0,
+    "total_events": 2,
+    "explanation": "Steady contributor with balanced participation (2 events). Average impact score of 2.0 reflects reliable execution."
+  },
+  "marcelomarkus": {
+    "role": "Builder",
+    "average_impact": 2.0,
+    "total_events": 1,
+    "explanation": "Steady contributor with balanced participation (1 events). Average impact score of 2.0 reflects reliable execution."
+  },
+  "SBillion": {
+    "role": "Builder",
+    "average_impact": 2.0,
+    "total_events": 2,
+    "explanation": "Steady contributor with balanced participation (2 events). Average impact score of 2.0 reflects reliable execution."
+  }
+}

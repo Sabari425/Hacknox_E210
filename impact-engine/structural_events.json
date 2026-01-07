@@ -1,0 +1,3676 @@
+[
+  {
+    "event_id": "e1eb443d-354b-40a8-95d2-3a354b278548",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2026-01-02T06:47:25Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:47:25Z"
+    }
+  },
+  {
+    "event_id": "2f9b5d25-ec10-4e6e-be88-5121cd379896",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2026-01-02T06:46:59Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:46:59Z"
+    }
+  },
+  {
+    "event_id": "e85c8ba2-cd47-415c-8d75-a64c7c98e638",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udc65 Update FastAPI People - Sponsors (#14626)",
+    "timestamp": "2026-01-02T06:46:57Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 211,
+      "deletions": 220,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 431,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:46:57Z"
+    }
+  },
+  {
+    "event_id": "8fc292bf-1f50-4aea-9249-724dd4c267b3",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udc65 Update FastAPI GitHub topic repositories (#14630)",
+    "timestamp": "2026-01-02T06:46:34Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 221,
+      "deletions": 221,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 442,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:46:34Z"
+    }
+  },
+  {
+    "event_id": "5892d7f6-116e-4a37-b0db-07435049ce05",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2026-01-02T06:40:39Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:40:39Z"
+    }
+  },
+  {
+    "event_id": "a0c2eebe-3aac-4c59-9ddf-bb293856adab",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udc65 Update FastAPI People - Contributors and Translators (#14625)",
+    "timestamp": "2026-01-02T06:40:15Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 108,
+      "deletions": 93,
+      "files_changed": 3
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 201,
+      "discussion": 0,
+      "timestamp": "2026-01-02T06:40:15Z"
+    }
+  },
+  {
+    "event_id": "88390623-bb7f-4e0c-bc6b-2f722dbfaeaa",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-29T18:54:43Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-29T18:54:43Z"
+    }
+  },
+  {
+    "event_id": "3adf215a-b940-49b2-bfc7-05c5a023df8a",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83c\udf10 Update translation prompts (#14619)",
+    "timestamp": "2025-12-29T18:54:20Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 838,
+      "deletions": 963,
+      "files_changed": 12
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1801,
+      "discussion": 0,
+      "timestamp": "2025-12-29T18:54:20Z"
+    }
+  },
+  {
+    "event_id": "d3334b1e-e5e4-4e74-bff6-08aa638fab12",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-29T12:38:35Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-29T12:38:35Z"
+    }
+  },
+  {
+    "event_id": "6930d272-e0c7-4d93-a492-c5354f3f8e7d",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd27 Add LLM prompt file for Turkish, generated from the existing transl\u2026",
+    "timestamp": "2025-12-29T12:38:11Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 52,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 52,
+      "discussion": 0,
+      "timestamp": "2025-12-29T12:38:11Z"
+    }
+  },
+  {
+    "event_id": "bd4fd754-1e5c-4a6c-912d-901cc9b8e7e6",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T19:06:15Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-27T19:06:15Z"
+    }
+  },
+  {
+    "event_id": "21499d83-5575-4b53-84fa-9820b1abdf9b",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd28 Update LLM translation script to guide reviewers to change the prom\u2026",
+    "timestamp": "2025-12-27T19:05:53Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 6,
+      "deletions": 2,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 8,
+      "discussion": 0,
+      "timestamp": "2025-12-27T19:05:53Z"
+    }
+  },
+  {
+    "event_id": "83dc656d-cd3f-46c4-b173-64ebd46d0122",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T18:51:39Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:51:39Z"
+    }
+  },
+  {
+    "event_id": "fe62a7d8-7ecd-4aff-b6c8-97a7bebbd480",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T18:51:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:51:18Z"
+    }
+  },
+  {
+    "event_id": "bdae02c1-0fe3-4e96-922d-eb5e1ba87249",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd27 Add LLM prompt file for Traditional Chinese, generated from the exi\u2026",
+    "timestamp": "2025-12-27T18:49:46Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 54,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 54,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:49:46Z"
+    }
+  },
+  {
+    "event_id": "aed953c4-77f2-4471-9cd0-a090cdc9ad77",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T18:49:09Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:49:09Z"
+    }
+  },
+  {
+    "event_id": "df2e514c-9445-4ddc-8bcc-6016834d48df",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd27 Add LLM prompt file for Simplified Chinese, generated from the exis\u2026",
+    "timestamp": "2025-12-27T18:49:08Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 46,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 46,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:49:08Z"
+    }
+  },
+  {
+    "event_id": "920c2f85-7352-44af-8222-233f410f61fa",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udc77 Do not run translations on cron while finishing updating existing l\u2026",
+    "timestamp": "2025-12-27T18:48:45Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 2,
+      "deletions": 2,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:48:45Z"
+    }
+  },
+  {
+    "event_id": "7938fc03-e9e4-4760-ac17-14d4c6dced00",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T18:31:59Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:31:59Z"
+    }
+  },
+  {
+    "event_id": "64bc355e-03b3-4392-99ed-8d68daf61f0d",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd25 Remove test variants for Pydantic v1 in test_request_params (#14612)",
+    "timestamp": "2025-12-27T18:31:34Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 64,
+      "deletions": 177,
+      "files_changed": 5
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 241,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:31:34Z"
+    }
+  },
+  {
+    "event_id": "2c9413d7-94c6-404f-b2bc-2099650ba2e6",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T18:19:33Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:19:33Z"
+    }
+  },
+  {
+    "event_id": "ba1749ee-5dbb-44ca-94d9-be7c3abc9d1e",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd25 Remove Pydantic v1  specific test variants (#14611)",
+    "timestamp": "2025-12-27T18:19:10Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4073,
+      "deletions": 8008,
+      "files_changed": 104
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 12081,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:19:10Z"
+    }
+  },
+  {
+    "event_id": "7aed711b-c3b0-4713-8026-f9f808457c37",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd16 Release version 0.128.0",
+    "timestamp": "2025-12-27T15:19:50Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 3,
+      "deletions": 1,
+      "files_changed": 2
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-27T15:19:50Z"
+    }
+  },
+  {
+    "event_id": "5a04b83f-0b67-4fed-9d38-365a04f19a85",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-27T12:55:22Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-27T12:55:22Z"
+    }
+  },
+  {
+    "event_id": "af17b2c2-ce7d-4cfe-b700-72751b2d17c1",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\u2796 Drop support for `pydantic.v1` (#14609)",
+    "timestamp": "2025-12-27T12:54:56Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 337,
+      "deletions": 8784,
+      "files_changed": 55
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 9121,
+      "discussion": 0,
+      "timestamp": "2025-12-27T12:54:56Z"
+    }
+  },
+  {
+    "event_id": "7692f4ac-54ec-411f-92a4-58f8e434c6e1",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T20:40:51Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-26T20:40:51Z"
+    }
+  },
+  {
+    "event_id": "7cd23ca6-3e77-4cb0-b23d-123047636cbe",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\u2705 Run performance tests only on Pydantic v2 (#14608)",
+    "timestamp": "2025-12-26T20:40:26Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 131,
+      "deletions": 137,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 268,
+      "discussion": 0,
+      "timestamp": "2025-12-26T20:40:26Z"
+    }
+  },
+  {
+    "event_id": "f703353e-d947-4140-9c84-c1cbaecf5c66",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd16 Release version 0.127.1",
+    "timestamp": "2025-12-26T13:02:41Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 3,
+      "deletions": 1,
+      "files_changed": 2
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-26T13:02:41Z"
+    }
+  },
+  {
+    "event_id": "111d533a-9eb6-42a0-a26a-28723126a1ea",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T12:46:00Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-26T12:46:00Z"
+    }
+  },
+  {
+    "event_id": "1b102bbe-5fe3-40e0-81fd-b1770ef916b7",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd0a Add a custom `FastAPIDeprecationWarning` (#14605)",
+    "timestamp": "2025-12-26T12:45:20Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 66,
+      "deletions": 43,
+      "files_changed": 19
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 109,
+      "discussion": 0,
+      "timestamp": "2025-12-26T12:45:20Z"
+    }
+  },
+  {
+    "event_id": "b2d51674-545d-4cc3-8e01-3c9c092eb71a",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T11:37:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-26T11:37:18Z"
+    }
+  },
+  {
+    "event_id": "d0ca68e4-dfb0-461e-bef2-5aa79e2e27b9",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udd27 Update pre-commit to use local Ruff instead of hook (#14604)",
+    "timestamp": "2025-12-26T11:36:58Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 18,
+      "deletions": 7,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 25,
+      "discussion": 0,
+      "timestamp": "2025-12-26T11:36:58Z"
+    }
+  },
+  {
+    "event_id": "12b68629-7975-489a-8ad3-430b1cc6e4cc",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T10:43:27Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-26T10:43:27Z"
+    }
+  },
+  {
+    "event_id": "9c32625a-6122-4dee-82a1-0e7f42e18302",
+    "actor": "YuriiMotov",
+    "event_type": "commit",
+    "text": "\u2705 Add missing tests for code examples (#14569)",
+    "timestamp": "2025-12-26T10:43:02Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 10459,
+      "deletions": 86,
+      "files_changed": 183
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 10545,
+      "discussion": 0,
+      "timestamp": "2025-12-26T10:43:02Z"
+    }
+  },
+  {
+    "event_id": "bd4cb63d-d309-40d4-b6a4-37126fdce4bb",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T09:40:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-26T09:40:18Z"
+    }
+  },
+  {
+    "event_id": "15f34142-5a84-42bf-bfdf-233a05ff354e",
+    "actor": "nilslindemann",
+    "event_type": "commit",
+    "text": "\ud83c\udf10 Update translations for de (update-outdated) (#14602)",
+    "timestamp": "2025-12-26T09:39:53Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 13,
+      "deletions": 6,
+      "files_changed": 2
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 19,
+      "discussion": 0,
+      "timestamp": "2025-12-26T09:39:53Z"
+    }
+  },
+  {
+    "event_id": "3c228d40-6bf8-40b3-91b6-84edd540788e",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-26T08:54:23Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 1,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 1,
+      "discussion": 0,
+      "timestamp": "2025-12-26T08:54:23Z"
+    }
+  },
+  {
+    "event_id": "11314ad1-b866-482e-aec6-c8604e9d287d",
+    "actor": "YuriiMotov",
+    "event_type": "commit",
+    "text": "\ud83d\udc77 Remove `lint` job from `test` CI workflow (#14593)",
+    "timestamp": "2025-12-26T08:53:59Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 0,
+      "deletions": 23,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 23,
+      "discussion": 0,
+      "timestamp": "2025-12-26T08:53:59Z"
+    }
+  },
+  {
+    "event_id": "e41873bc-713a-4627-aa0a-70a9bcdbe53b",
+    "actor": "github-actions[bot]",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Update release notes",
+    "timestamp": "2025-12-25T11:02:01Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 4,
+      "deletions": 0,
+      "files_changed": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 4,
+      "discussion": 0,
+      "timestamp": "2025-12-25T11:02:01Z"
+    }
+  },
+  {
+    "event_id": "235ac688-1c54-4579-bbff-1014c0854bd7",
+    "actor": "tiangolo",
+    "event_type": "commit",
+    "text": "\ud83d\udcdd Add documentary to website (#14600)",
+    "timestamp": "2025-12-25T11:01:37Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "additions": 12,
+      "deletions": 0,
+      "files_changed": 3
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 12,
+      "discussion": 0,
+      "timestamp": "2025-12-25T11:01:37Z"
+    }
+  },
+  {
+    "event_id": "bb7f41b6-a5e2-4f78-b334-aaac2bc90879",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Discriminated Unions Break When Wrapped in Annotated[Union, Body(...)] in FastAPI 0.124.1+",
+    "timestamp": "2025-12-11T16:55:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-11T16:55:18Z"
+    }
+  },
+  {
+    "event_id": "07fe8c12-0ab6-43a9-bacb-6e290cdc357c",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:14:58Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:14:58Z"
+    }
+  },
+  {
+    "event_id": "e35b104b-d3bc-4cd0-b72a-39a8a07b9366",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:14:05Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:14:05Z"
+    }
+  },
+  {
+    "event_id": "893934bf-116d-46ec-8178-9b5b5e840180",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:13:16Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:13:16Z"
+    }
+  },
+  {
+    "event_id": "d3c8e51a-9640-4ff2-bcb9-9f15e1350417",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:09:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:09:18Z"
+    }
+  },
+  {
+    "event_id": "b356561b-ba2b-46b3-834f-f2af56d1f7a9",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:08:46Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:08:46Z"
+    }
+  },
+  {
+    "event_id": "aec7eacb-1008-468a-9ecf-68e2ccfcbf3f",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:07:52Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:07:52Z"
+    }
+  },
+  {
+    "event_id": "d08c2f1e-ff11-4191-9863-74c9adbf1945",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:06:31Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:06:31Z"
+    }
+  },
+  {
+    "event_id": "9497ae8e-9c2a-4925-b06d-0b6763f17f51",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:02:17Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-11T10:02:17Z"
+    }
+  },
+  {
+    "event_id": "d5ca1b9c-a861-4c88-8d29-74ba97185dd5",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:01:03Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:01:03Z"
+    }
+  },
+  {
+    "event_id": "e3988f35-7ada-4d32-8b6a-b3ade5f3a339",
+    "actor": "LakshmiMandal",
+    "event_type": "issue",
+    "text": "Performance issue",
+    "timestamp": "2025-12-11T10:00:01Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-11T10:00:01Z"
+    }
+  },
+  {
+    "event_id": "b6027b18-eab8-4fc3-9a44-d96e580edc10",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "In FastAPI 0.123.7, annotations from code imported in `if TYPE_CHECKING` could break",
+    "timestamp": "2025-12-10T11:53:19Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-10T11:53:19Z"
+    }
+  },
+  {
+    "event_id": "ecf03d9f-11d2-41de-a0f9-204acee164ca",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Since FastAPI 0.119.0, using `arbitrary_types_allowed=True` with custom types that define their serialization and JSON Schema breaks when generating OpenAPI",
+    "timestamp": "2025-12-10T09:47:16Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-10T09:47:16Z"
+    }
+  },
+  {
+    "event_id": "66fe71b8-e93c-48d5-81ff-ddc45894e4f3",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Computed fields support breaks with mixed route types",
+    "timestamp": "2025-12-05T21:25:04Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-05T21:25:04Z"
+    }
+  },
+  {
+    "event_id": "4fe9494e-0813-40d9-9b20-129eb17fffa2",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Bug with async callable class dependency in fastapi>=0.123.6",
+    "timestamp": "2025-12-05T21:23:57Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-05T21:23:57Z"
+    }
+  },
+  {
+    "event_id": "c368ce13-5865-41d2-b657-bdf31f4e98c2",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Bug with async callable class dependency in fastapi>=0.123.6",
+    "timestamp": "2025-12-05T21:20:18Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-05T21:20:18Z"
+    }
+  },
+  {
+    "event_id": "c99754f8-17ba-459c-9c18-2f159b731aab",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "OAuth2 security schemes duplicated in OpenAPI, with and without scopes, when used at the router level",
+    "timestamp": "2025-12-04T12:35:06Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 3
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 3,
+      "timestamp": "2025-12-04T12:35:06Z"
+    }
+  },
+  {
+    "event_id": "68f2265d-5726-4539-980a-395bd6824043",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "FastAPI 0.123.5 breaks async wrappers using @wraps",
+    "timestamp": "2025-12-03T16:04:52Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-03T16:04:52Z"
+    }
+  },
+  {
+    "event_id": "a4f3ace4-c919-4865-a3b6-7a8bda84373a",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "FastAPI app with `separate_input_output_schemas` disabled excludes computed fields on Pydantic models from OpenAPI output",
+    "timestamp": "2025-12-02T09:22:13Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-12-02T09:22:13Z"
+    }
+  },
+  {
+    "event_id": "eeca1452-71fc-4ba1-b06f-6c78b92fdab3",
+    "actor": "Kludex",
+    "event_type": "issue",
+    "text": "AttributeError: 'dict' object has no attribute 'split'",
+    "timestamp": "2025-11-13T08:50:10Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 2
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 2,
+      "timestamp": "2025-11-13T08:50:10Z"
+    }
+  },
+  {
+    "event_id": "f8c530ee-da54-4d42-a767-7c15103824a3",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "`Depends(func, scope=\"function\")` with `yield` dependency exits after the request is sent instead of after the function",
+    "timestamp": "2025-11-08T21:50:28Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "blocking"
+      ],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-11-08T21:50:28Z"
+    }
+  },
+  {
+    "event_id": "fb02a6ce-740a-4c4e-97ad-be203ecc2755",
+    "actor": "xdewx",
+    "event_type": "issue",
+    "text": "CORS Middleware and exception handler",
+    "timestamp": "2025-11-08T11:41:53Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-11-08T11:41:53Z"
+    }
+  },
+  {
+    "event_id": "90e0be94-5ba6-4a5b-b1ac-dccfe28226f0",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "\ud83d\udc1b 0.120.3 breaks `SecurityBase` based dependencies in OpenAPI",
+    "timestamp": "2025-10-31T18:27:22Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-10-31T18:27:22Z"
+    }
+  },
+  {
+    "event_id": "67866cff-9090-4262-8bf7-5fe760ebdf35",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Component name regression in OpenAPI spec for v0.119.0",
+    "timestamp": "2025-10-29T12:29:40Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 1
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 1,
+      "timestamp": "2025-10-29T12:29:40Z"
+    }
+  },
+  {
+    "event_id": "648d5900-beba-484c-bb51-79374109b28b",
+    "actor": "vardhan30016",
+    "event_type": "issue",
+    "text": "docs: Fix typo in tutorial documentation",
+    "timestamp": "2025-10-24T09:55:25Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-10-24T09:55:25Z"
+    }
+  },
+  {
+    "event_id": "2491e9d2-ad97-488d-90f8-28cebf22341f",
+    "actor": "fbidu",
+    "event_type": "issue",
+    "text": "Changes to _remap_definitions_and_field_mappings failing in v0.119",
+    "timestamp": "2025-10-23T10:31:16Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 5
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 5,
+      "timestamp": "2025-10-23T10:31:16Z"
+    }
+  },
+  {
+    "event_id": "fc1279a1-5bb7-4c9a-a841-6c0fd3d0bc7b",
+    "actor": "krishnamurthy-srinivasan",
+    "event_type": "issue",
+    "text": "Se que ha pasado mucho tiempo, soy ingeniero y Senior en Desarrollo de Software, creo que  hay demasiado factores para que un c\u00f3digo sea m\u00e1s r\u00e1pido, o se note lento:",
+    "timestamp": "2025-10-17T19:52:42Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-10-17T19:52:42Z"
+    }
+  },
+  {
+    "event_id": "e045abf9-adbe-4bc7-b3fd-9ed007460dde",
+    "actor": "boreyleang",
+    "event_type": "issue",
+    "text": "AssertionError: fastapi_inner_astack not found in request scope",
+    "timestamp": "2025-09-30T03:36:27Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 12
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 12,
+      "timestamp": "2025-09-30T03:36:27Z"
+    }
+  },
+  {
+    "event_id": "7ceb6f42-7c44-4d45-852f-4cbf8f63d9f7",
+    "actor": "UnkownHunter",
+    "event_type": "issue",
+    "text": "how is this code is relavent to this ?",
+    "timestamp": "2025-09-25T17:36:22Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-09-25T17:36:22Z"
+    }
+  },
+  {
+    "event_id": "5f4f97ef-f3b3-4d1c-9c07-1cff74d1e6d8",
+    "actor": "pinky2004-dot",
+    "event_type": "issue",
+    "text": "AI Bug Analysis: ValidationError: 1 validation error for Request\nbody\n  field required (type=value_error.missing)",
+    "timestamp": "2025-09-14T16:03:10Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-09-14T16:03:10Z"
+    }
+  },
+  {
+    "event_id": "d47b40f7-90bb-4d0a-825c-ffd46549de57",
+    "actor": "GabeCloy",
+    "event_type": "issue",
+    "text": "validate_core_schema has been removed in the new pydantic-core (>=2.35.0), causing FastAPI to fail to import. Hoping to resolve this.",
+    "timestamp": "2025-08-25T03:33:10Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-08-25T03:33:10Z"
+    }
+  },
+  {
+    "event_id": "dbddd1d0-47fe-448a-ad85-263dd124ef85",
+    "actor": "andrzejdoros",
+    "event_type": "issue",
+    "text": "Support for propertyNames in OpenAPI schema when using dict[Enum, ...] with Pydantic v2",
+    "timestamp": "2025-07-10T11:59:00Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 11
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 11,
+      "timestamp": "2025-07-10T11:59:00Z"
+    }
+  },
+  {
+    "event_id": "ab770ad3-800d-4c23-901f-9f0fc5f9035d",
+    "actor": "qiusheng2011",
+    "event_type": "issue",
+    "text": "API Big file attacks",
+    "timestamp": "2025-06-30T07:45:09Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-06-30T07:45:09Z"
+    }
+  },
+  {
+    "event_id": "2134b2c6-2318-4c87-a83b-dda544cd8e84",
+    "actor": "harol97",
+    "event_type": "issue",
+    "text": "SUB APPLICATIONS - MOUNTS IS SHOW INCORRECT INFORMATION",
+    "timestamp": "2025-05-15T03:06:28Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-05-15T03:06:28Z"
+    }
+  },
+  {
+    "event_id": "788ebea1-4d01-4df9-926f-fe04760e296c",
+    "actor": "zowi-net",
+    "event_type": "issue",
+    "text": "FastAPI Tensor flow and tensor flow lite issue with Pyhon v3.14.x when making a pip installtion bug",
+    "timestamp": "2025-04-11T18:26:53Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 2
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "high",
+      "confidence": 0.9
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 2,
+      "timestamp": "2025-04-11T18:26:53Z"
+    }
+  },
+  {
+    "event_id": "1ba85364-1bee-4687-a5f1-5a639d2c1475",
+    "actor": "MarinPostma",
+    "event_type": "issue",
+    "text": "Multiple regressions in the handling of forms & form validation",
+    "timestamp": "2025-03-24T10:13:27Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 23
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 23,
+      "timestamp": "2025-03-24T10:13:27Z"
+    }
+  },
+  {
+    "event_id": "189cc661-9d4e-4d02-bca7-c011cc974a5e",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Validations in `Annotated` like `AfterValidator` do not work in FastAPI 0.115.10",
+    "timestamp": "2025-03-01T17:19:44Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 2
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 2,
+      "timestamp": "2025-03-01T17:19:44Z"
+    }
+  },
+  {
+    "event_id": "760fc808-1b93-4cff-9503-91613da30c3c",
+    "actor": "DuplosFidibuss",
+    "event_type": "issue",
+    "text": "Header parameter and model handling does not work as expected",
+    "timestamp": "2025-02-20T16:17:31Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 15
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 15,
+      "timestamp": "2025-02-20T16:17:31Z"
+    }
+  },
+  {
+    "event_id": "3dd469c7-3100-4f14-b629-82936bc8e0e9",
+    "actor": "SobikXexe",
+    "event_type": "issue",
+    "text": "Callable object as dependency with body params is not parsing parameters inside `__call__` properly",
+    "timestamp": "2025-02-03T16:44:42Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 0
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-02-03T16:44:42Z"
+    }
+  },
+  {
+    "event_id": "d3c81572-a096-42fa-add6-37a7f39ba187",
+    "actor": "tiangolo",
+    "event_type": "issue",
+    "text": "Simplify tests for variants",
+    "timestamp": "2025-01-03T09:57:09Z",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "labels": [],
+      "state": "closed",
+      "comments": 6
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 6,
+      "timestamp": "2025-01-03T09:57:09Z"
+    }
+  },
+  {
+    "event_id": "c162317d-ab0d-4da6-819d-7770e8ead148",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc65 Update FastAPI GitHub topic repositories",
+    "timestamp": "2026-01-01T12:15:06Z",
+    "related": {
+      "commit": null,
+      "pr": 14630,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2026-01-01T12:15:06Z"
+    }
+  },
+  {
+    "event_id": "10e343c9-ce02-4248-9d1f-f6bfff778676",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc65 Update FastAPI People - Sponsors",
+    "timestamp": "2026-01-01T06:05:29Z",
+    "related": {
+      "commit": null,
+      "pr": 14626,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2026-01-01T06:05:29Z"
+    }
+  },
+  {
+    "event_id": "9b4e202d-7985-4fa9-b1d7-2e3f31ef5874",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc65 Update FastAPI People - Contributors and Translators",
+    "timestamp": "2026-01-01T03:42:04Z",
+    "related": {
+      "commit": null,
+      "pr": 14625,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2026-01-01T03:42:04Z"
+    }
+  },
+  {
+    "event_id": "0a6796ce-36fa-4926-98b1-de832d429986",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83c\udf10 Update translation prompts",
+    "timestamp": "2025-12-29T18:49:10Z",
+    "related": {
+      "commit": null,
+      "pr": 14619,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-29T18:49:10Z"
+    }
+  },
+  {
+    "event_id": "f666a89f-0499-4615-938f-f8f159ac1eed",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd28 Update LLM translation script to guide reviewers to change the prompt",
+    "timestamp": "2025-12-27T19:00:53Z",
+    "related": {
+      "commit": null,
+      "pr": 14614,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-27T19:00:53Z"
+    }
+  },
+  {
+    "event_id": "78d1ccdf-0496-4cc6-b2dc-9c9b8a6d31ca",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc77 Do not run translations on cron while finishing updating existing languages",
+    "timestamp": "2025-12-27T18:43:58Z",
+    "related": {
+      "commit": null,
+      "pr": 14613,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:43:58Z"
+    }
+  },
+  {
+    "event_id": "8227400f-4674-4622-bb69-d8b242ab585a",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd25 Remove test variants for Pydantic v1 in test_request_params",
+    "timestamp": "2025-12-27T18:23:40Z",
+    "related": {
+      "commit": null,
+      "pr": 14612,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:23:40Z"
+    }
+  },
+  {
+    "event_id": "64c6f377-ed79-4747-aae7-5208075b3939",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd25 Remove Pydantic v1  specific test variants",
+    "timestamp": "2025-12-27T18:13:46Z",
+    "related": {
+      "commit": null,
+      "pr": 14611,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-27T18:13:46Z"
+    }
+  },
+  {
+    "event_id": "85e97a21-8ae2-4c56-956c-cb57eea8ffa0",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u2796 Drop support for `pydantic.v1`",
+    "timestamp": "2025-12-26T20:43:11Z",
+    "related": {
+      "commit": null,
+      "pr": 14609,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-26T20:43:11Z"
+    }
+  },
+  {
+    "event_id": "274bbe53-b5ae-45c5-8dfc-799f47a76a24",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u2705 Run performance tests only on Pydantic v2",
+    "timestamp": "2025-12-26T20:27:29Z",
+    "related": {
+      "commit": null,
+      "pr": 14608,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-26T20:27:29Z"
+    }
+  },
+  {
+    "event_id": "3be95a2e-ba72-4d2d-964b-d8946f2710f1",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd0a Add a custom `FastAPIDeprecationWarning`",
+    "timestamp": "2025-12-26T12:35:43Z",
+    "related": {
+      "commit": null,
+      "pr": 14605,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-26T12:35:43Z"
+    }
+  },
+  {
+    "event_id": "3be0ac3e-791e-4bf2-b6ad-61db308e97f2",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Update pre-commit to use local Ruff instead of hook",
+    "timestamp": "2025-12-26T11:27:05Z",
+    "related": {
+      "commit": null,
+      "pr": 14604,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-26T11:27:05Z"
+    }
+  },
+  {
+    "event_id": "d345739e-f2a8-4a66-9bd2-ed9ac61e1e9e",
+    "actor": "nilslindemann",
+    "event_type": "pr",
+    "text": "\ud83c\udf10 Update translations for de (update-outdated)",
+    "timestamp": "2025-12-25T17:49:35Z",
+    "related": {
+      "commit": null,
+      "pr": 14602,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-25T17:49:35Z"
+    }
+  },
+  {
+    "event_id": "aa6de970-9e76-452d-9791-da907e6bb6e3",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udcdd Add documentary to website",
+    "timestamp": "2025-12-25T10:52:14Z",
+    "related": {
+      "commit": null,
+      "pr": 14600,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-25T10:52:14Z"
+    }
+  },
+  {
+    "event_id": "d83e2ddd-06d3-4b70-afd0-9d5c46a8aa7a",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\ud83d\udc77 Remove `lint` job from `test` CI workflow",
+    "timestamp": "2025-12-23T11:59:13Z",
+    "related": {
+      "commit": null,
+      "pr": 14593,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-23T11:59:13Z"
+    }
+  },
+  {
+    "event_id": "3835cb63-6f40-4b95-921a-efee2f7004a7",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc77 Update secrets check",
+    "timestamp": "2025-12-23T11:07:50Z",
+    "related": {
+      "commit": null,
+      "pr": 14592,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-23T11:07:50Z"
+    }
+  },
+  {
+    "event_id": "75c99dfc-b9b8-4359-be83-49b25c3b5f14",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc77 Run CodSpeed tests in parallel to other tests to speed up CI",
+    "timestamp": "2025-12-21T17:41:07Z",
+    "related": {
+      "commit": null,
+      "pr": 14586,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-21T17:41:07Z"
+    }
+  },
+  {
+    "event_id": "5bb1d741-0136-4d11-accb-1b1b7474d968",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd28 Update scripts and pre-commit to autofix files",
+    "timestamp": "2025-12-21T17:31:37Z",
+    "related": {
+      "commit": null,
+      "pr": 14585,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-21T17:31:37Z"
+    }
+  },
+  {
+    "event_id": "279b1d58-5c95-4e13-b9ce-38693bab64a4",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd0a Add deprecation warnings when using `pydantic.v1`",
+    "timestamp": "2025-12-21T15:59:56Z",
+    "related": {
+      "commit": null,
+      "pr": 14583,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-21T15:59:56Z"
+    }
+  },
+  {
+    "event_id": "42893770-db90-4a4d-886d-f70ef3942dd6",
+    "actor": "nilslindemann",
+    "event_type": "pr",
+    "text": "\ud83c\udf10 Update translations for de (update-outdated)",
+    "timestamp": "2025-12-21T13:45:10Z",
+    "related": {
+      "commit": null,
+      "pr": 14581,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-21T13:45:10Z"
+    }
+  },
+  {
+    "event_id": "763a1c4e-7ce7-4fa7-a601-e20aeab4f250",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u2b06\ufe0f Upgrade OpenAI model for translations to gpt-5.2",
+    "timestamp": "2025-12-21T07:57:37Z",
+    "related": {
+      "commit": null,
+      "pr": 14579,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-21T07:57:37Z"
+    }
+  },
+  {
+    "event_id": "7bd44650-0067-46a9-8a8b-e79d6d0ac319",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Tweak pre-commit to allow committing release-notes",
+    "timestamp": "2025-12-20T16:00:02Z",
+    "related": {
+      "commit": null,
+      "pr": 14577,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-20T16:00:02Z"
+    }
+  },
+  {
+    "event_id": "9dd97653-da1f-4119-8202-831c2a8b0cea",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u2796 Drop support for Pydantic v1, keeping short temporary support for Pydantic v2's `pydantic.v1`",
+    "timestamp": "2025-12-20T13:34:45Z",
+    "related": {
+      "commit": null,
+      "pr": 14575,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-20T13:34:45Z"
+    }
+  },
+  {
+    "event_id": "fcf78860-9341-4e81-8806-1598ab30a53b",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u2b06\ufe0f Use prek as a pre-commit alternative",
+    "timestamp": "2025-12-19T12:34:05Z",
+    "related": {
+      "commit": null,
+      "pr": 14572,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-19T12:34:05Z"
+    }
+  },
+  {
+    "event_id": "b8fe78cd-614e-4103-9dd8-96dad03c14f6",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\u2705 Add missing tests for code examples",
+    "timestamp": "2025-12-18T21:27:11Z",
+    "related": {
+      "commit": null,
+      "pr": 14569,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-18T21:27:11Z"
+    }
+  },
+  {
+    "event_id": "5f33f555-823c-42db-894e-613822ab98e4",
+    "actor": "paras-verma7454",
+    "event_type": "pr",
+    "text": "\ud83d\udcdd Fix duplicated variable in `docs_src/python_types/tutorial005_py39.py`",
+    "timestamp": "2025-12-18T08:53:29Z",
+    "related": {
+      "commit": null,
+      "pr": 14565,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "bug_fix",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-18T08:53:29Z"
+    }
+  },
+  {
+    "event_id": "db7ac395-386f-4a1d-b855-618bd046c72c",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u267b\ufe0f Upgrade internal syntax to Python 3.9+ \ud83c\udf89",
+    "timestamp": "2025-12-17T21:12:57Z",
+    "related": {
+      "commit": null,
+      "pr": 14564,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T21:12:57Z"
+    }
+  },
+  {
+    "event_id": "2477b839-14ba-4862-8259-e50669d4e93c",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Drop support for Python 3.8",
+    "timestamp": "2025-12-17T20:44:18Z",
+    "related": {
+      "commit": null,
+      "pr": 14563,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T20:44:18Z"
+    }
+  },
+  {
+    "event_id": "f24b7bfa-414f-46f0-acad-4a1df6b0a274",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udcdd Update more docs with Python 3.8 to Python 3.9",
+    "timestamp": "2025-12-17T20:10:22Z",
+    "related": {
+      "commit": null,
+      "pr": 14562,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "docs",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T20:10:22Z"
+    }
+  },
+  {
+    "event_id": "169646d7-88d2-457e-b5c1-e922c2b2b0c9",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\u26b0\ufe0f Remove Python 3.8 from CI and remove Python 3.8 examples from source docs",
+    "timestamp": "2025-12-17T18:56:14Z",
+    "related": {
+      "commit": null,
+      "pr": 14559,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "refactor",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T18:56:14Z"
+    }
+  },
+  {
+    "event_id": "7fda482d-a391-4f60-a66a-7297d216265e",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udc77 Add performance tests with CodSpeed",
+    "timestamp": "2025-12-17T18:32:36Z",
+    "related": {
+      "commit": null,
+      "pr": 14558,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T18:32:36Z"
+    }
+  },
+  {
+    "event_id": "a92316c5-86e0-4d6a-b6fa-a4f1fcb84506",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\u2b06 Bump `markdown-include-variants` from 0.0.7 to 0.0.8",
+    "timestamp": "2025-12-17T14:32:18Z",
+    "related": {
+      "commit": null,
+      "pr": 14556,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T14:32:18Z"
+    }
+  },
+  {
+    "event_id": "b991a9cb-94bd-404a-a029-49b97e674900",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Temporarily disable translations still in progress, being migrated to the new LLM setup",
+    "timestamp": "2025-12-17T10:06:31Z",
+    "related": {
+      "commit": null,
+      "pr": 14555,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T10:06:31Z"
+    }
+  },
+  {
+    "event_id": "98517699-7c04-474b-a300-82edd00c18d9",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\ud83c\udf10 Sync Portuguese docs (pages found with script)",
+    "timestamp": "2025-12-17T09:55:00Z",
+    "related": {
+      "commit": null,
+      "pr": 14554,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "docs",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T09:55:00Z"
+    }
+  },
+  {
+    "event_id": "22e7380e-2f95-4ff5-bd9e-ae87408f25bb",
+    "actor": "YuriiMotov",
+    "event_type": "pr",
+    "text": "\ud83c\udf10 Sync Spanish docs (outdated pages found with script)",
+    "timestamp": "2025-12-17T09:35:07Z",
+    "related": {
+      "commit": null,
+      "pr": 14553,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "docs",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-17T09:35:07Z"
+    }
+  },
+  {
+    "event_id": "8d8e277c-4e1c-4c55-b487-38aa4e4c4a4b",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Add LLM prompt file for Traditional Chinese, generated from the existing translations",
+    "timestamp": "2025-12-16T23:56:32Z",
+    "related": {
+      "commit": null,
+      "pr": 14550,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-16T23:56:32Z"
+    }
+  },
+  {
+    "event_id": "2fce6300-0129-4c20-8f06-140e966858b5",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Add LLM prompt file for Simplified Chinese, generated from the existing translations",
+    "timestamp": "2025-12-16T23:55:23Z",
+    "related": {
+      "commit": null,
+      "pr": 14549,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-16T23:55:23Z"
+    }
+  },
+  {
+    "event_id": "fe5ef7d3-1fcb-4a30-9011-97f9bdd9fd04",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Add LLM prompt file for Ukrainian, generated from the existing translations",
+    "timestamp": "2025-12-16T23:53:59Z",
+    "related": {
+      "commit": null,
+      "pr": 14548,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-16T23:53:59Z"
+    }
+  },
+  {
+    "event_id": "8852e521-346c-48c7-a9c6-ee6f9a669d0d",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Add LLM prompt file for Turkish, generated from the existing translations",
+    "timestamp": "2025-12-16T23:52:47Z",
+    "related": {
+      "commit": null,
+      "pr": 14547,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-16T23:52:47Z"
+    }
+  },
+  {
+    "event_id": "75fa3609-1827-4fe5-ad6f-5bda60d2239c",
+    "actor": "tiangolo",
+    "event_type": "pr",
+    "text": "\ud83d\udd27 Add LLM prompt file for Korean, generated from the existing translations",
+    "timestamp": "2025-12-16T23:51:31Z",
+    "related": {
+      "commit": null,
+      "pr": 14546,
+      "issue": null
+    },
+    "metadata": {
+      "merged": true,
+      "state": null
+    },
+    "semantic": {
+      "intent": "feature",
+      "signals": [],
+      "quality": "medium",
+      "confidence": 0.6
+    },
+    "structural": {
+      "merged": true,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": "2025-12-16T23:51:31Z"
+    }
+  },
+  {
+    "event_id": "527c936c-a84a-4f14-bb11-2c290523d174",
+    "actor": "tiangolo",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "APPROVED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "53f95479-9c6f-4823-a32c-ff620d07820e",
+    "actor": "johnslavik",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "COMMENTED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "7603e075-b6e5-4f1d-b5d8-a90d8e0e51fb",
+    "actor": "johnslavik",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "COMMENTED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "ff9f31b7-1524-41a5-ad10-e3a016a3af0b",
+    "actor": "tiangolo",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "APPROVED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "2de55ef5-fccb-44ea-b48f-78102af484df",
+    "actor": "marcelomarkus",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "APPROVED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "6f62a94b-c395-4224-8c59-bb5c4b08d1fa",
+    "actor": "SBillion",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "APPROVED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "d954f0c7-72f0-4fb4-90fa-169045589311",
+    "actor": "tiangolo",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "COMMENTED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  },
+  {
+    "event_id": "9c518fbe-b5a7-42e5-9d95-1879485e462b",
+    "actor": "SBillion",
+    "event_type": "review",
+    "text": "",
+    "timestamp": "",
+    "related": {
+      "commit": null,
+      "pr": null,
+      "issue": null
+    },
+    "metadata": {
+      "review_state": "COMMENTED"
+    },
+    "semantic": {
+      "intent": "other",
+      "signals": [
+        "noise"
+      ],
+      "quality": "low",
+      "confidence": 0.3
+    },
+    "structural": {
+      "merged": false,
+      "size_score": 0,
+      "discussion": 0,
+      "timestamp": null
+    }
+  }
+]
