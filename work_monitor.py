@@ -17,7 +17,6 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-
 :root {
     --bg-primary: #0d1117;
     --bg-secondary: #161b22;
@@ -34,13 +33,11 @@ st.markdown("""
     --accent-orange: #db6d28;
 }
 
-
 .stApp {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-primary) !important;
@@ -56,7 +53,6 @@ h1 {
 h2 { font-size: 20px; }
 h3 { font-size: 16px; }
 h4 { font-size: 14px; }
-
 
 .github-header {
     position: sticky;
@@ -93,7 +89,6 @@ h4 { font-size: 14px; }
     border-bottom-color: var(--accent-blue);
     font-weight: 600;
 }
-
 
 .insight-card {
     background-color: var(--bg-secondary);
@@ -227,47 +222,6 @@ h4 { font-size: 14px; }
     border-radius: 8px;
     padding: 20px;
     height: 500px;
-}
-.quadrant-label {
-    position: absolute;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 4px 8px;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.q1-label { color: var(--accent-green); top: 20px; right: 20px; }
-.q2-label { color: var(--accent-orange); top: 20px; left: 20px; }
-.q3-label { color: var(--accent-yellow); bottom: 20px; left: 20px; }
-.q4-label { color: var(--accent-blue); bottom: 20px; right: 20px; }
-
-.member-detail-section {
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 16px;
-}
-.section-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-}
-.section-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    background-color: var(--bg-tertiary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 12px;
-    font-size: 16px;
-}
-.section-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text-primary);
 }
 
 .dataframe {
@@ -470,7 +424,6 @@ header { visibility: hidden; }
 .badge-purple { background-color: var(--accent-purple); color: white; }
 .badge-gray { background-color: var(--bg-tertiary); color: var(--text-secondary); }
 .badge-orange { background-color: var(--accent-orange); color: white; }
-
 
 .spacing-8 { margin-bottom: 8px; }
 .spacing-16 { margin-bottom: 16px; }
@@ -905,7 +858,7 @@ class VisualizationEngine:
 
     @staticmethod
     def create_four_quadrant_chart(data: pd.DataFrame, team_name: str):
-        """Create four-quadrant activity vs impact chart"""
+        """Create four-quadrant activity vs impact chart with floating quadrant labels"""
         try:
             fig = go.Figure()
 
@@ -953,6 +906,55 @@ class VisualizationEngine:
             # Add quadrant lines
             fig.add_hline(y=70, line_dash="dash", line_color="#6e7681", line_width=1)
             fig.add_vline(x=55, line_dash="dash", line_color="#6e7681", line_width=1)
+
+            # Add floating quadrant labels
+            fig.add_annotation(
+                x=80, y=85,
+                text="Impact Drivers",
+                showarrow=False,
+                font=dict(size=14, color="#bc8cff", family="Arial Black"),
+                bgcolor="rgba(0,0,0,0.7)",
+                bordercolor="#bc8cff",
+                borderwidth=1,
+                borderpad=4,
+                opacity=0.9
+            )
+
+            fig.add_annotation(
+                x=80, y=30,
+                text="Noisy Contributors",
+                showarrow=False,
+                font=dict(size=14, color="#db6d28", family="Arial Black"),
+                bgcolor="rgba(0,0,0,0.7)",
+                bordercolor="#db6d28",
+                borderwidth=1,
+                borderpad=4,
+                opacity=0.9
+            )
+
+            fig.add_annotation(
+                x=20, y=30,
+                text="Normal Contributors",
+                showarrow=False,
+                font=dict(size=14, color="#d29922", family="Arial Black"),
+                bgcolor="rgba(0,0,0,0.7)",
+                bordercolor="#d29922",
+                borderwidth=1,
+                borderpad=4,
+                opacity=0.9
+            )
+
+            fig.add_annotation(
+                x=20, y=85,
+                text="Silent Architects",
+                showarrow=False,
+                font=dict(size=14, color="#3fb950", family="Arial Black"),
+                bgcolor="rgba(0,0,0,0.7)",
+                bordercolor="#3fb950",
+                borderwidth=1,
+                borderpad=4,
+                opacity=0.9
+            )
 
             fig.update_layout(
                 title=f"Activity vs Impact Analysis - {team_name}",
@@ -1234,15 +1236,6 @@ class TeamDashboard:
         col1, col2, col3, col4 = st.columns(4)
         with col1:
             st.metric("Team Size", team_size)
-        with col2:
-            silent_architects = team_data["is_silent_architect"].sum()
-            st.metric("Silent Architects", silent_architects)
-        with col3:
-            firefighters = team_data["is_firefighter"].sum()
-            st.metric("Firefighters", firefighters)
-        with col4:
-            mentors = team_data["is_mentor"].sum()
-            st.metric("Mentors", mentors)
 
         st.markdown("---")
 
@@ -1339,51 +1332,9 @@ class TeamDashboard:
                     st.markdown("<p style='color: #6e7681; font-size: 13px;'>No mentors identified</p>",
                                 unsafe_allow_html=True)
 
-            # Builders card
-            builders = data[data["is_builder"]]
-            with st.container(border=True):
-                st.markdown("<h4 style='color: #db6d28;'>Builders</h4>", unsafe_allow_html=True)
-                st.markdown(
-                    "<p style='color: #8b949e; font-size: 14px;'>Create new features and systems. Focus on architecture and long-term value creation.</p>",
-                    unsafe_allow_html=True)
+            # Removed Builders card as requested
 
-                if not builders.empty:
-                    for _, builder in builders.iterrows():
-                        st.markdown(f"<div style='display: flex; align-items: center; margin: 8px 0;'>"
-                                    f"<div style='width: 8px; height: 8px; border-radius: 50%; background-color: #db6d28; margin-right: 8px;'></div>"
-                                    f"<span>{builder['name']}</span>"
-                                    f"<span style='color: #6e7681; font-size: 12px; margin-left: 8px;'>(Features: {builder['features_delivered']})</span>"
-                                    f"</div>", unsafe_allow_html=True)
-                else:
-                    st.markdown("<p style='color: #6e7681; font-size: 13px;'>No builders identified</p>",
-                                unsafe_allow_html=True)
-
-        # Insights summary
-        st.markdown("---")
-        col1, col2 = st.columns(2)
-
-        with col1:
-            with st.container(border=True):
-                st.markdown("<h4>Team Composition Insights</h4>", unsafe_allow_html=True)
-
-                total_members = len(data)
-                silent_percent = (len(silent_archs) / total_members * 100) if total_members > 0 else 0
-                mentor_percent = (len(mentors) / total_members * 100) if total_members > 0 else 0
-
-                st.markdown(f"<p style='color: #8b949e; font-size: 14px;'>"
-                            f"<span style='color: #3fb950;'>{silent_percent:.1f}%</span> are Silent Architects<br>"
-                            f"<span style='color: #58a6ff;'>{mentor_percent:.1f}%</span> are Mentors"
-                            f"</p>", unsafe_allow_html=True)
-
-        with col2:
-            with st.container(border=True):
-                st.markdown("<h4>Recommendations</h4>", unsafe_allow_html=True)
-                st.markdown("<ul style='color: #8b949e; font-size: 14px;'>"
-                            "<li>Recognize Silent Architects in team meetings</li>"
-                            "<li>Give Firefighters dedicated recovery time</li>"
-                            "<li>Leverage Mentors for onboarding new hires</li>"
-                            "<li>Provide Builders with architecture challenges</li>"
-                            "</ul>", unsafe_allow_html=True)
+        # Removed Insights summary and Recommendations sections as requested
 
     @staticmethod
     def _show_team_members(data: pd.DataFrame, team_name: str):
@@ -1416,13 +1367,11 @@ class TeamDashboard:
             )
 
         with col3:
-            # Activity range filter
-            activity_range = st.slider(
-                "Activity Score Range",
-                min_value=0,
-                max_value=100,
-                value=(0, 100),
-                key="activity_filter"
+            # Search bar instead of Activity Score Range
+            search_query = st.text_input(
+                "Search members",
+                placeholder="Type name or username...",
+                key="member_search"
             )
 
         # Apply filters
@@ -1434,9 +1383,11 @@ class TeamDashboard:
         if selected_impact:
             filtered_data = filtered_data[filtered_data["impact_level"].isin(selected_impact)]
 
-        filtered_data = filtered_data[
-            (filtered_data["visibility_score"] >= activity_range[0]) &
-            (filtered_data["visibility_score"] <= activity_range[1])
+        if search_query:
+            search_query_lower = search_query.lower()
+            filtered_data = filtered_data[
+                filtered_data["name"].str.lower().str.contains(search_query_lower) |
+                filtered_data["username"].str.lower().str.contains(search_query_lower)
             ]
 
         # Members Table - Simple table without column links
@@ -1663,7 +1614,7 @@ class TeamDashboard:
         fig = VisualizationEngine.create_four_quadrant_chart(data, team_name)
         st.plotly_chart(fig, use_container_width=True)
 
-        # Quadrant breakdown
+        # Quadrant breakdown (simplified version without expander)
         st.markdown("#### Quadrant Breakdown")
 
         quadrants = {
@@ -1694,28 +1645,7 @@ class TeamDashboard:
                     st.markdown(f"<div style='color: #6e7681; font-size: 12px;'>{percent:.1f}% of team</div>",
                                 unsafe_allow_html=True)
 
-        # Recommendations based on quadrant distribution
-        st.markdown("---")
-        with st.expander("📋 Quadrant Analysis & Recommendations", expanded=True):
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.markdown("**Quadrant Characteristics:**")
-                st.markdown("""
-                - **Impact Drivers**: High visibility, high impact - Leadership potential
-                - **Noisy Contributors**: High visibility, low impact - Need focus training
-                - **Normal Contributors**: Balanced profile - Solid team members
-                - **Silent Architects**: Low visibility, high impact - Need recognition
-                """)
-
-            with col2:
-                st.markdown("**Management Recommendations:**")
-                st.markdown("""
-                1. **Promote Impact Drivers** to leadership roles
-                2. **Coach Noisy Contributors** on impact-focused work
-                3. **Support Normal Contributors** with clear goals
-                4. **Recognize Silent Architects** in reviews
-                """)
+        # Removed "Quadrant Analysis & Recommendations" expander as requested
 
     @staticmethod
     def _show_member_detail(data: pd.DataFrame, team_name: str):
