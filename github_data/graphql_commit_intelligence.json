@@ -1,0 +1,494 @@
+{
+  "data": {
+    "repository": {
+      "defaultBranchRef": {
+        "target": {
+          "history": {
+            "nodes": [
+              {
+                "committedDate": "2026-01-02T06:47:25Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2026-01-02T06:46:59Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2026-01-02T06:46:57Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 211,
+                "deletions": 220,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udc65 Update FastAPI People - Sponsors (#14626)"
+              },
+              {
+                "committedDate": "2026-01-02T06:46:34Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 221,
+                "deletions": 221,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udc65 Update FastAPI GitHub topic repositories (#14630)"
+              },
+              {
+                "committedDate": "2026-01-02T06:40:39Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2026-01-02T06:40:15Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 108,
+                "deletions": 93,
+                "changedFiles": 3,
+                "messageHeadline": "\ud83d\udc65 Update FastAPI People - Contributors and Translators (#14625)"
+              },
+              {
+                "committedDate": "2025-12-29T18:54:43Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-29T18:54:20Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 838,
+                "deletions": 963,
+                "changedFiles": 12,
+                "messageHeadline": "\ud83c\udf10 Update translation prompts (#14619)"
+              },
+              {
+                "committedDate": "2025-12-29T12:38:35Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-29T12:38:11Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 52,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udd27 Add LLM prompt file for Turkish, generated from the existing transl\u2026"
+              },
+              {
+                "committedDate": "2025-12-27T19:06:15Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T19:05:53Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 6,
+                "deletions": 2,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udd28 Update LLM translation script to guide reviewers to change the prom\u2026"
+              },
+              {
+                "committedDate": "2025-12-27T18:51:39Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T18:51:18Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T18:49:46Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 54,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udd27 Add LLM prompt file for Traditional Chinese, generated from the exi\u2026"
+              },
+              {
+                "committedDate": "2025-12-27T18:49:09Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T18:49:08Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 46,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udd27 Add LLM prompt file for Simplified Chinese, generated from the exis\u2026"
+              },
+              {
+                "committedDate": "2025-12-27T18:48:45Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 2,
+                "deletions": 2,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udc77 Do not run translations on cron while finishing updating existing l\u2026"
+              },
+              {
+                "committedDate": "2025-12-27T18:31:59Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T18:31:34Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 64,
+                "deletions": 177,
+                "changedFiles": 5,
+                "messageHeadline": "\ud83d\udd25 Remove test variants for Pydantic v1 in test_request_params (#14612)"
+              },
+              {
+                "committedDate": "2025-12-27T18:19:33Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T18:19:10Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 4073,
+                "deletions": 8008,
+                "changedFiles": 104,
+                "messageHeadline": "\ud83d\udd25 Remove Pydantic v1  specific test variants (#14611)"
+              },
+              {
+                "committedDate": "2025-12-27T15:19:50Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 3,
+                "deletions": 1,
+                "changedFiles": 2,
+                "messageHeadline": "\ud83d\udd16 Release version 0.128.0"
+              },
+              {
+                "committedDate": "2025-12-27T12:55:22Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-27T12:54:56Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 337,
+                "deletions": 8784,
+                "changedFiles": 55,
+                "messageHeadline": "\u2796 Drop support for `pydantic.v1` (#14609)"
+              },
+              {
+                "committedDate": "2025-12-26T20:40:51Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T20:40:26Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 131,
+                "deletions": 137,
+                "changedFiles": 1,
+                "messageHeadline": "\u2705 Run performance tests only on Pydantic v2 (#14608)"
+              },
+              {
+                "committedDate": "2025-12-26T13:02:41Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 3,
+                "deletions": 1,
+                "changedFiles": 2,
+                "messageHeadline": "\ud83d\udd16 Release version 0.127.1"
+              },
+              {
+                "committedDate": "2025-12-26T12:46:00Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T12:45:20Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 66,
+                "deletions": 43,
+                "changedFiles": 19,
+                "messageHeadline": "\ud83d\udd0a Add a custom `FastAPIDeprecationWarning` (#14605)"
+              },
+              {
+                "committedDate": "2025-12-26T11:37:18Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T11:36:58Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 18,
+                "deletions": 7,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udd27 Update pre-commit to use local Ruff instead of hook (#14604)"
+              },
+              {
+                "committedDate": "2025-12-26T10:43:27Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T10:43:02Z",
+                "author": {
+                  "user": {
+                    "login": "YuriiMotov"
+                  }
+                },
+                "additions": 10459,
+                "deletions": 86,
+                "changedFiles": 183,
+                "messageHeadline": "\u2705 Add missing tests for code examples (#14569)"
+              },
+              {
+                "committedDate": "2025-12-26T09:40:18Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T09:39:53Z",
+                "author": {
+                  "user": {
+                    "login": "nilslindemann"
+                  }
+                },
+                "additions": 13,
+                "deletions": 6,
+                "changedFiles": 2,
+                "messageHeadline": "\ud83c\udf10 Update translations for de (update-outdated) (#14602)"
+              },
+              {
+                "committedDate": "2025-12-26T08:54:23Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 1,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-26T08:53:59Z",
+                "author": {
+                  "user": {
+                    "login": "YuriiMotov"
+                  }
+                },
+                "additions": 0,
+                "deletions": 23,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udc77 Remove `lint` job from `test` CI workflow (#14593)"
+              },
+              {
+                "committedDate": "2025-12-25T11:02:01Z",
+                "author": {
+                  "user": {
+                    "login": "github-actions[bot]"
+                  }
+                },
+                "additions": 4,
+                "deletions": 0,
+                "changedFiles": 1,
+                "messageHeadline": "\ud83d\udcdd Update release notes"
+              },
+              {
+                "committedDate": "2025-12-25T11:01:37Z",
+                "author": {
+                  "user": {
+                    "login": "tiangolo"
+                  }
+                },
+                "additions": 12,
+                "deletions": 0,
+                "changedFiles": 3,
+                "messageHeadline": "\ud83d\udcdd Add documentary to website (#14600)"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

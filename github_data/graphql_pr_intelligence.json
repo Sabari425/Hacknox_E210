@@ -1,0 +1,1202 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 14630,
+            "title": "\ud83d\udc65 Update FastAPI GitHub topic repositories",
+            "createdAt": "2026-01-01T12:15:06Z",
+            "mergedAt": "2026-01-02T06:46:34Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 221,
+                    "deletions": 221,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14626,
+            "title": "\ud83d\udc65 Update FastAPI People - Sponsors",
+            "createdAt": "2026-01-01T06:05:29Z",
+            "mergedAt": "2026-01-02T06:46:57Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 211,
+                    "deletions": 220,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14625,
+            "title": "\ud83d\udc65 Update FastAPI People - Contributors and Translators",
+            "createdAt": "2026-01-01T03:42:04Z",
+            "mergedAt": "2026-01-02T06:40:15Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 108,
+                    "deletions": 93,
+                    "changedFiles": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14619,
+            "title": "\ud83c\udf10 Update translation prompts",
+            "createdAt": "2025-12-29T18:49:10Z",
+            "mergedAt": "2025-12-29T18:54:20Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 838,
+                    "deletions": 963,
+                    "changedFiles": 12
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14614,
+            "title": "\ud83d\udd28 Update LLM translation script to guide reviewers to change the prompt",
+            "createdAt": "2025-12-27T19:00:53Z",
+            "mergedAt": "2025-12-27T19:05:53Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 6,
+                    "deletions": 2,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14613,
+            "title": "\ud83d\udc77 Do not run translations on cron while finishing updating existing languages",
+            "createdAt": "2025-12-27T18:43:58Z",
+            "mergedAt": "2025-12-27T18:48:45Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 2,
+                    "deletions": 2,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14612,
+            "title": "\ud83d\udd25 Remove test variants for Pydantic v1 in test_request_params",
+            "createdAt": "2025-12-27T18:23:40Z",
+            "mergedAt": "2025-12-27T18:31:34Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 64,
+                    "deletions": 177,
+                    "changedFiles": 5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14611,
+            "title": "\ud83d\udd25 Remove Pydantic v1  specific test variants",
+            "createdAt": "2025-12-27T18:13:46Z",
+            "mergedAt": "2025-12-27T18:19:10Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 16,
+                    "deletions": 41,
+                    "changedFiles": 2
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14609,
+            "title": "\u2796 Drop support for `pydantic.v1`",
+            "createdAt": "2025-12-26T20:43:11Z",
+            "mergedAt": "2025-12-27T12:54:57Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 32,
+                    "deletions": 74,
+                    "changedFiles": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14608,
+            "title": "\u2705 Run performance tests only on Pydantic v2",
+            "createdAt": "2025-12-26T20:27:29Z",
+            "mergedAt": "2025-12-26T20:40:27Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14605,
+            "title": "\ud83d\udd0a Add a custom `FastAPIDeprecationWarning`",
+            "createdAt": "2025-12-26T12:35:43Z",
+            "mergedAt": "2025-12-26T12:45:20Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 36,
+                    "deletions": 26,
+                    "changedFiles": 11
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14604,
+            "title": "\ud83d\udd27 Update pre-commit to use local Ruff instead of hook",
+            "createdAt": "2025-12-26T11:27:05Z",
+            "mergedAt": "2025-12-26T11:36:58Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 18,
+                    "deletions": 7,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14602,
+            "title": "\ud83c\udf10 Update translations for de (update-outdated)",
+            "createdAt": "2025-12-25T17:49:35Z",
+            "mergedAt": "2025-12-26T09:39:53Z",
+            "author": {
+              "login": "nilslindemann"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 48,
+                    "deletions": 181,
+                    "changedFiles": 15
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14600,
+            "title": "\ud83d\udcdd Add documentary to website",
+            "createdAt": "2025-12-25T10:52:14Z",
+            "mergedAt": "2025-12-25T11:01:37Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 12,
+                    "deletions": 0,
+                    "changedFiles": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14593,
+            "title": "\ud83d\udc77 Remove `lint` job from `test` CI workflow",
+            "createdAt": "2025-12-23T11:59:13Z",
+            "mergedAt": "2025-12-26T08:53:59Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-26T08:53:46Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 0,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14592,
+            "title": "\ud83d\udc77 Update secrets check",
+            "createdAt": "2025-12-23T11:07:50Z",
+            "mergedAt": "2025-12-23T11:17:16Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 6,
+                    "deletions": 5,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14586,
+            "title": "\ud83d\udc77 Run CodSpeed tests in parallel to other tests to speed up CI",
+            "createdAt": "2025-12-21T17:41:07Z",
+            "mergedAt": "2025-12-21T17:51:45Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 7,
+                    "deletions": 2,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14585,
+            "title": "\ud83d\udd28 Update scripts and pre-commit to autofix files",
+            "createdAt": "2025-12-21T17:31:37Z",
+            "mergedAt": "2025-12-21T17:40:18Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 0,
+                    "deletions": 2,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14583,
+            "title": "\ud83d\udd0a Add deprecation warnings when using `pydantic.v1`",
+            "createdAt": "2025-12-21T15:59:56Z",
+            "mergedAt": "2025-12-21T16:44:10Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 21,
+                    "deletions": 0,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14581,
+            "title": "\ud83c\udf10 Update translations for de (update-outdated)",
+            "createdAt": "2025-12-21T13:45:10Z",
+            "mergedAt": "2025-12-24T10:28:20Z",
+            "author": {
+              "login": "nilslindemann"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 875,
+                    "deletions": 669,
+                    "changedFiles": 26
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14579,
+            "title": "\u2b06\ufe0f Upgrade OpenAI model for translations to gpt-5.2",
+            "createdAt": "2025-12-21T07:57:37Z",
+            "mergedAt": "2025-12-21T08:06:23Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14577,
+            "title": "\ud83d\udd27 Tweak pre-commit to allow committing release-notes",
+            "createdAt": "2025-12-20T16:00:02Z",
+            "mergedAt": "2025-12-20T16:08:58Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 0,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14575,
+            "title": "\u2796 Drop support for Pydantic v1, keeping short temporary support for Pydantic v2's `pydantic.v1`",
+            "createdAt": "2025-12-20T13:34:45Z",
+            "mergedAt": "2025-12-20T15:55:38Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-21T14:49:03Z",
+                  "author": {
+                    "login": "johnslavik"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-21T15:01:18Z",
+                  "author": {
+                    "login": "johnslavik"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14572,
+            "title": "\u2b06\ufe0f Use prek as a pre-commit alternative",
+            "createdAt": "2025-12-19T12:34:05Z",
+            "mergedAt": "2025-12-19T12:44:56Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 0,
+                    "deletions": 3,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14569,
+            "title": "\u2705 Add missing tests for code examples",
+            "createdAt": "2025-12-18T21:27:11Z",
+            "mergedAt": "2025-12-26T10:43:02Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-26T10:42:37Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 9,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14565,
+            "title": "\ud83d\udcdd Fix duplicated variable in `docs_src/python_types/tutorial005_py39.py`",
+            "createdAt": "2025-12-18T08:53:29Z",
+            "mergedAt": "2025-12-20T06:40:21Z",
+            "author": {
+              "login": "paras-verma7454"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14564,
+            "title": "\u267b\ufe0f Upgrade internal syntax to Python 3.9+ \ud83c\udf89",
+            "createdAt": "2025-12-17T21:12:57Z",
+            "mergedAt": "2025-12-17T21:25:59Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 4,
+                    "deletions": 3,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14563,
+            "title": "\ud83d\udd27 Drop support for Python 3.8",
+            "createdAt": "2025-12-17T20:44:18Z",
+            "mergedAt": "2025-12-17T20:47:16Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 2,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14562,
+            "title": "\ud83d\udcdd Update more docs with Python 3.8 to Python 3.9",
+            "createdAt": "2025-12-17T20:10:22Z",
+            "mergedAt": "2025-12-17T20:16:55Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T20:14:44Z",
+                  "author": {
+                    "login": "marcelomarkus"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T20:14:22Z",
+                  "author": {
+                    "login": "SBillion"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-17T20:16:37Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-17T20:21:13Z",
+                  "author": {
+                    "login": "SBillion"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 6,
+                    "deletions": 6,
+                    "changedFiles": 6
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14559,
+            "title": "\u26b0\ufe0f Remove Python 3.8 from CI and remove Python 3.8 examples from source docs",
+            "createdAt": "2025-12-17T18:56:14Z",
+            "mergedAt": "2025-12-17T20:41:43Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 6,
+                    "deletions": 6,
+                    "changedFiles": 6
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14558,
+            "title": "\ud83d\udc77 Add performance tests with CodSpeed",
+            "createdAt": "2025-12-17T18:32:36Z",
+            "mergedAt": "2025-12-18T13:24:09Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": []
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14556,
+            "title": "\u2b06 Bump `markdown-include-variants` from 0.0.7 to 0.0.8",
+            "createdAt": "2025-12-17T14:32:18Z",
+            "mergedAt": "2025-12-17T14:39:10Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T14:37:40Z",
+                  "author": {
+                    "login": "SBillion"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14555,
+            "title": "\ud83d\udd27 Temporarily disable translations still in progress, being migrated to the new LLM setup",
+            "createdAt": "2025-12-17T10:06:31Z",
+            "mergedAt": "2025-12-17T10:44:55Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T10:20:42Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 337,
+                    "deletions": 334,
+                    "changedFiles": 31
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14554,
+            "title": "\ud83c\udf10 Sync Portuguese docs (pages found with script)",
+            "createdAt": "2025-12-17T09:55:00Z",
+            "mergedAt": "2025-12-17T10:17:03Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T10:16:50Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 13,
+                    "deletions": 13,
+                    "changedFiles": 4
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14553,
+            "title": "\ud83c\udf10 Sync Spanish docs (outdated pages found with script)",
+            "createdAt": "2025-12-17T09:35:07Z",
+            "mergedAt": "2025-12-17T10:15:02Z",
+            "author": {
+              "login": "YuriiMotov"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-17T10:14:47Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 2,
+                    "deletions": 2,
+                    "changedFiles": 2
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14550,
+            "title": "\ud83d\udd27 Add LLM prompt file for Traditional Chinese, generated from the existing translations",
+            "createdAt": "2025-12-16T23:56:32Z",
+            "mergedAt": "2025-12-27T18:49:46Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T04:14:12Z",
+                  "author": {
+                    "login": "mattwang44"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-20T17:40:39Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-20T17:59:57Z",
+                  "author": {
+                    "login": "mattwang44"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 2,
+                    "deletions": 0,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14549,
+            "title": "\ud83d\udd27 Add LLM prompt file for Simplified Chinese, generated from the existing translations",
+            "createdAt": "2025-12-16T23:55:23Z",
+            "mergedAt": "2025-12-27T18:49:08Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-18T11:39:53Z",
+                  "author": {
+                    "login": "Aruelius"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-19T01:01:25Z",
+                  "author": {
+                    "login": "Zhongheng-Cheng"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T09:13:02Z",
+                  "author": {
+                    "login": "Vincy1230"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T12:51:08Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-20T08:39:05Z",
+                  "author": {
+                    "login": "waketzheng"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-20T16:11:50Z",
+                  "author": {
+                    "login": "Vincy1230"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-20T17:36:37Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-21T06:49:22Z",
+                  "author": {
+                    "login": "waketzheng"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-23T12:38:46Z",
+                  "author": {
+                    "login": "Pyth3rEx"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-24T02:31:29Z",
+                  "author": {
+                    "login": "Vincy1230"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14548,
+            "title": "\ud83d\udd27 Add LLM prompt file for Ukrainian, generated from the existing translations",
+            "createdAt": "2025-12-16T23:53:59Z",
+            "mergedAt": "2025-12-19T12:51:53Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-18T12:05:54Z",
+                  "author": {
+                    "login": "mezgoodle"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 46,
+                    "deletions": 0,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14547,
+            "title": "\ud83d\udd27 Add LLM prompt file for Turkish, generated from the existing translations",
+            "createdAt": "2025-12-16T23:52:47Z",
+            "mergedAt": "2025-12-29T12:38:11Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-18T17:46:31Z",
+                  "author": {
+                    "login": "ycd"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T12:53:02Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-21T18:59:05Z",
+                  "author": {
+                    "login": "ycd"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-27T18:48:18Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-29T11:01:58Z",
+                  "author": {
+                    "login": "ycd"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-29T12:37:39Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 10,
+                    "deletions": 5,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": 14546,
+            "title": "\ud83d\udd27 Add LLM prompt file for Korean, generated from the existing translations",
+            "createdAt": "2025-12-16T23:51:31Z",
+            "mergedAt": "2025-12-20T17:32:05Z",
+            "author": {
+              "login": "tiangolo"
+            },
+            "reviews": {
+              "nodes": [
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-18T12:13:14Z",
+                  "author": {
+                    "login": "choi-haram"
+                  }
+                },
+                {
+                  "state": "CHANGES_REQUESTED",
+                  "createdAt": "2025-12-19T06:05:50Z",
+                  "author": {
+                    "login": "hard-coders"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T12:53:51Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "COMMENTED",
+                  "createdAt": "2025-12-19T12:54:36Z",
+                  "author": {
+                    "login": "tiangolo"
+                  }
+                },
+                {
+                  "state": "APPROVED",
+                  "createdAt": "2025-12-20T07:22:47Z",
+                  "author": {
+                    "login": "hard-coders"
+                  }
+                }
+              ]
+            },
+            "commits": {
+              "nodes": [
+                {
+                  "commit": {
+                    "additions": 1,
+                    "deletions": 1,
+                    "changedFiles": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+user,closed,comments,title,created_at,closed_at
+tiangolo,True,1,"Discriminated Unions Break When Wrapped in Annotated[Union, Body(...)] in FastAPI 0.124.1+",2025-12-11T16:55:18Z,2025-12-12T14:35:09Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:14:58Z,2025-12-11T10:54:18Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:14:05Z,2025-12-11T10:54:29Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:13:16Z,2025-12-11T10:55:37Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:09:18Z,2025-12-11T10:55:47Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:08:46Z,2025-12-11T10:56:10Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:07:52Z,2025-12-11T10:54:07Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:06:31Z,2025-12-11T10:10:40Z
+LakshmiMandal,True,1,Performance issue,2025-12-11T10:02:17Z,2025-12-11T10:05:47Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:01:03Z,2025-12-11T10:05:02Z
+LakshmiMandal,True,0,Performance issue,2025-12-11T10:00:01Z,2025-12-11T10:04:55Z
+tiangolo,True,1,"In FastAPI 0.123.7, annotations from code imported in `if TYPE_CHECKING` could break",2025-12-10T11:53:19Z,2025-12-10T12:12:15Z
+tiangolo,True,1,"Since FastAPI 0.119.0, using `arbitrary_types_allowed=True` with custom types that define their serialization and JSON Schema breaks when generating OpenAPI",2025-12-10T09:47:16Z,2025-12-10T10:40:30Z
+tiangolo,True,1,Computed fields support breaks with mixed route types,2025-12-05T21:25:04Z,2025-12-05T21:25:11Z
+tiangolo,True,1,Bug with async callable class dependency in fastapi>=0.123.6,2025-12-05T21:23:57Z,2025-12-05T21:24:20Z
+tiangolo,True,1,Bug with async callable class dependency in fastapi>=0.123.6,2025-12-05T21:20:18Z,2025-12-05T21:22:58Z
+tiangolo,True,3,"OAuth2 security schemes duplicated in OpenAPI, with and without scopes, when used at the router level",2025-12-04T12:35:06Z,2025-12-04T22:22:02Z
+tiangolo,True,1,FastAPI 0.123.5 breaks async wrappers using @wraps,2025-12-03T16:04:52Z,2025-12-04T07:37:05Z
+tiangolo,True,1,FastAPI app with `separate_input_output_schemas` disabled excludes computed fields on Pydantic models from OpenAPI output,2025-12-02T09:22:13Z,2025-12-02T09:23:31Z
