@@ -8,6 +8,11 @@ import random
 import time
 from typing import Dict, List, Optional
 import io
+import json
+import os
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
 
 st.set_page_config(
     page_title="Workforce Contribution Monitor",
@@ -450,366 +455,246 @@ header { visibility: hidden; }
 
 
 class DataManager:
-    """Data generation and management with enhanced role detection"""
-
-    # Role definitions with colors and criteria
     ROLE_DEFINITIONS = {
-        "Mentor": {
-            "color": "#58a6ff",
-            "icon": "👨‍🏫",
-            "criteria": lambda emp: emp.get("mentoring_sessions", 0) > 8 and emp.get("code_reviews", 0) > 30
-        },
-        "Silent Architect": {
-            "color": "#3fb950",
-            "icon": "🏗️",
-            "criteria": lambda emp: (
-                    emp.get("impact_score", 0) > 75 and
-                    emp.get("visibility_score", 0) < 55 and
-                    emp.get("quality_score", 0) > 80
-            )
-        },
-        "Firefighter": {
-            "color": "#f85149",
-            "icon": "🚒",
-            "criteria": lambda emp: (
-                    emp.get("critical_bugs_fixed", 0) > 15 and
-                    emp.get("last_minute_fixes", 0) > 5
-            )
-        },
-        "Builder": {
-            "color": "#db6d28",
-            "icon": "🔨",
-            "criteria": lambda emp: (
-                    emp.get("features_delivered", 0) > 10 and
-                    emp.get("design_docs", 0) > 3
-            )
-        },
-        "Impact Driver": {
-            "color": "#bc8cff",
-            "icon": "🚀",
-            "criteria": lambda emp: (
-                    emp.get("impact_score", 0) > 85 and
-                    emp.get("visibility_score", 0) > 70
-            )
-        },
-        "Noisy Contributor": {
-            "color": "#d29922",
-            "icon": "📢",
-            "criteria": lambda emp: (
-                    emp.get("visibility_score", 0) > 75 and
-                    emp.get("impact_score", 0) < 60
-            )
-        }
+        "Mentor": {"color": "#58a6ff", "icon": "👨‍🏫", "criteria": lambda emp: emp.get("code_reviews", 0) > 10},
+        "Silent Architect": {"color": "#3fb950", "icon": "🏗️", "criteria": lambda emp: emp.get("impact_score", 0) > 75 and emp.get("visibility_score", 0) < 50},
+        "Firefighter": {"color": "#f85149", "icon": "🚒", "criteria": lambda emp: emp.get("critical_bugs_fixed", 0) > 5},
+        "Builder": {"color": "#db6d28", "icon": "🔨", "criteria": lambda emp: emp.get("features_delivered", 0) > 5},
+        "Impact Driver": {"color": "#bc8cff", "icon": "🚀", "criteria": lambda emp: emp.get("impact_score", 0) > 80},
+        "Noisy Contributor": {"color": "#d29922", "icon": "📢", "criteria": lambda emp: emp.get("visibility_score", 0) > 80 and emp.get("impact_score", 0) < 50}
     }
+
+    @staticmethod
+    def load_local_data():
+        """Load files specifically from the 'github_data' folder"""
+        data_cache = {}
+        
+        # DEFINING THE FOLDER PATH
+        base_path = "github_data" 
+        
+        # 1. Load CSVs (Raw Counts)
+        csv_files = {
+            "commits": "commits.csv",
+            "prs": "pull_requests.csv", 
+            "issues": "issues.csv",
+            "reviews": "reviews.csv",
+            "contributors": "contributors.csv"
+        }
+        
+        for key, filename in csv_files.items():
+            # Combine folder path with filename (e.g., github_data/commits.csv)
+            full_path = os.path.join(base_path, filename)
+            
+            if os.path.exists(full_path):
+                try:
+                    data_cache[key] = pd.read_csv(full_path)
+                except Exception as e:
+                    print(f"Error reading {filename}: {e}")
+                    data_cache[key] = pd.DataFrame()
+            else:
+                data_cache[key] = pd.DataFrame()
+
+        # 2. Load JSONs (Intelligence/Summaries)
+        json_files = {
+            "pr_intel": "graphql_pr_intelligence.json",
+            "issue_intel": "graphql_issue_intelligence.json",
+            "commit_intel": "graphql_commit_intelligence.json"
+        }
+
+        for key, filename in json_files.items():
+            full_path = os.path.join(base_path, filename)
+            
+            if os.path.exists(full_path):
+                try:
+                    with open(full_path, 'r', encoding='utf-8') as f:
+                        data_cache[key] = json.load(f)
+                except Exception as e:
+                    print(f"Error reading {filename}: {e}")
+                    data_cache[key] = []
+            else:
+                data_cache[key] = []
+                
+        return data_cache
 
     @staticmethod
     @st.cache_data(ttl=300)
     def generate_team_data(_team_name: str, size: int) -> pd.DataFrame:
-        """Generate realistic team data with enhanced metrics"""
+        """Generate team data from LOCAL FILES"""
         try:
-            # Set seed for reproducibility
-            seed = hash(_team_name) % 10000
-            random.seed(seed)
-            np.random.seed(seed)
+            raw_data = DataManager.load_local_data()
+            
+            # --- 1. AGGREGATE STATS BY USER ---
+            user_stats = {}
 
-            # First names and last names
-            first_names = ["Alex", "Jordan", "Taylor", "Morgan", "Casey", "Riley",
-                           "Avery", "Quinn", "Blake", "Hayden", "Drew", "Cameron",
-                           "Jamie", "Robin", "Skyler", "Dakota", "Rowan", "Sage"]
+            def normalize_user(u): return str(u).lower().strip() if u else "unknown"
 
-            last_names = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia",
-                          "Miller", "Davis", "Rodriguez", "Martinez", "Lee", "Gonzalez"]
+            # Process Commits
+            if not raw_data['commits'].empty:
+                col = next((c for c in raw_data['commits'].columns if c.lower() in ['author', 'login', 'username', 'user']), None)
+                if col:
+                    counts = raw_data['commits'][col].value_counts()
+                    for user, count in counts.items():
+                        u = normalize_user(user)
+                        if u not in user_stats: user_stats[u] = {}
+                        user_stats[u]['commits'] = count
 
-            roles = ["Senior Developer", "Developer", "Junior Developer", "Tech Lead",
-                     "Software Architect", "DevOps Engineer", "QA Engineer"]
+            # Process PRs
+            if not raw_data['prs'].empty:
+                col = next((c for c in raw_data['prs'].columns if c.lower() in ['author', 'login', 'username', 'user']), None)
+                if col:
+                    counts = raw_data['prs'][col].value_counts()
+                    for user, count in counts.items():
+                        u = normalize_user(user)
+                        if u not in user_stats: user_stats[u] = {}
+                        user_stats[u]['prs'] = count
 
+            # Process Issues
+            if not raw_data['issues'].empty:
+                col = next((c for c in raw_data['issues'].columns if c.lower() in ['author', 'login', 'username', 'user']), None)
+                if col:
+                    counts = raw_data['issues'][col].value_counts()
+                    for user, count in counts.items():
+                        u = normalize_user(user)
+                        if u not in user_stats: user_stats[u] = {}
+                        user_stats[u]['issues'] = count
+
+            # Process Reviews
+            if not raw_data['reviews'].empty:
+                col = next((c for c in raw_data['reviews'].columns if c.lower() in ['author', 'login', 'username', 'user']), None)
+                if col:
+                    counts = raw_data['reviews'][col].value_counts()
+                    for user, count in counts.items():
+                        u = normalize_user(user)
+                        if u not in user_stats: user_stats[u] = {}
+                        user_stats[u]['reviews'] = count
+
+            # --- 2. MAP INTELLIGENCE (JSON) ---
+            def get_ai_summary(username, json_list):
+                summary_points = []
+                topics = set()
+                for item in json_list:
+                    item_user = item.get('author', item.get('user', item.get('login', '')))
+                    if normalize_user(item_user) == username:
+                        if 'summary' in item: summary_points.append(item['summary'])
+                        if 'title' in item: topics.add(item['title'])
+                        if 'topics' in item: topics.update(item['topics'])
+                return summary_points, list(topics)
+
+            # --- 3. BUILD DATAFRAME ---
             employees = []
+            
+            if not user_stats:
+                return DataManager._generate_dummy_fallback(_team_name, size)
 
-            for i in range(size):
-                emp_id = f"{_team_name[:3].upper()}{i + 1:03d}"
-                first = random.choice(first_names)
-                last = random.choice(last_names)
-                role = random.choice(roles)
+            for username, stats in user_stats.items():
+                if "bot" in username or "action" in username: continue 
+                
+                n_commits = stats.get('commits', 0)
+                n_prs = stats.get('prs', 0)
+                n_issues = stats.get('issues', 0)
+                n_reviews = stats.get('reviews', 0)
+                
+                pr_summaries, pr_topics = get_ai_summary(username, raw_data['pr_intel'])
+                issue_summaries, issue_topics = get_ai_summary(username, raw_data['issue_intel'])
+                
+                combined_topics = (pr_topics + issue_topics)[:6]
+                
+                # Combine summaries, defaulting to a generic string if empty
+                ai_summary_text = " • ".join(pr_summaries[:2] + issue_summaries[:1])
+                if not ai_summary_text: 
+                    ai_summary_text = f"Contributor active in {n_commits} commits."
 
-                # Generate base performance score (0-1)
-                base_perf = np.random.beta(2, 2)
+                # CALCULATE SCORES (Simple Heuristic)
+                vis_score = min(100, (n_commits * 1.5) + (n_issues * 2) + (n_reviews * 3))
+                imp_score = min(100, (n_prs * 8) + (n_reviews * 5) + (n_commits * 0.5))
 
-                # Activity metrics (visibility)
-                commits = int(np.random.gamma(shape=2, scale=15) * (1.5 if "Senior" in role else 1))
-                slack_msgs = int(np.random.gamma(shape=1.5, scale=30) * base_perf)
-                meetings = int(np.random.gamma(shape=1, scale=15) * base_perf)
-
-                # Impact metrics
-                critical_fixes = int(np.random.poisson(5) * (2 if "Senior" in role else 1))
-                features = int(np.random.poisson(4) * base_perf)
-                code_reviews = int(np.random.gamma(shape=2, scale=8) * (1.5 if "Senior" in role else 1))
-                mentoring = int(np.random.poisson(3) * (2 if "Senior" in role else 0.5))
-                design_docs = random.randint(0, 5)
-                last_minute_fixes = int(np.random.poisson(3) * base_perf)
-
-                # Quality metrics
-                pr_approval = np.clip(base_perf * 0.8 + np.random.normal(0.1, 0.05), 0.65, 0.98)
-                bug_rate = np.clip((1 - base_perf) * 0.2 + np.random.normal(0.03, 0.01), 0.01, 0.15)
-                code_coverage = np.clip(base_perf * 0.7 + np.random.normal(0.15, 0.05), 0.6, 0.95)
-
-                # Calculate scores
-                visibility_score = min(100, np.log1p(commits) * 12 + np.log1p(slack_msgs) * 8 + meetings * 0.4)
-                impact_score = min(100, critical_fixes * 2.5 + features * 3 + np.log1p(
-                    code_reviews) * 8 + mentoring * 1.5 + design_docs * 4)
-                quality_score = min(100, pr_approval * 60 + (1 - bug_rate) * 30 + code_coverage * 10)
-
-                # Contribution score (scale-invariant)
-                contribution_raw = (
-                        impact_score * 0.35 +
-                        quality_score * 0.30 +
-                        np.log1p(mentoring + code_reviews) * 15 * 0.20 +
-                        (100 - abs(visibility_score - 50)) * 0.15
-                )
-
-                # Generate roles based on criteria
+                # Role logic
                 emp_roles = []
-                for role_name, role_def in DataManager.ROLE_DEFINITIONS.items():
-                    if role_def["criteria"]({
-                        "mentoring_sessions": mentoring,
-                        "code_reviews": code_reviews,
-                        "impact_score": impact_score,
-                        "visibility_score": visibility_score,
-                        "quality_score": quality_score,
-                        "critical_bugs_fixed": critical_fixes,
-                        "last_minute_fixes": last_minute_fixes,
-                        "features_delivered": features,
-                        "design_docs": design_docs
-                    }):
-                        emp_roles.append(role_name)
-
-                # If no role assigned, assign "Normal Contributor"
-                if not emp_roles:
-                    emp_roles = ["Normal Contributor"]
-
-                # Determine primary role (first in list)
-                primary_role = emp_roles[0]
+                if n_reviews > 10: emp_roles.append("Mentor")
+                if imp_score > 70 and vis_score < 50: emp_roles.append("Silent Architect")
+                if imp_score > 80: emp_roles.append("Impact Driver")
+                if not emp_roles: emp_roles.append("Normal Contributor")
 
                 employees.append({
-                    "employee_id": emp_id,
-                    "name": f"{first} {last}",
-                    "username": f"{first.lower()}{last[0].lower()}",
-                    "email": f"{first.lower()}.{last.lower()}@company.com",
-                    "role": role,
-                    "primary_role": primary_role,
+                    "employee_id": username[:8],
+                    "name": username, 
+                    "username": username,
+                    "email": f"{username}@company.com",
+                    "role": "Developer",
+                    "primary_role": emp_roles[0],
                     "all_roles": emp_roles,
                     "team": _team_name,
-                    "join_date": (datetime.now() - timedelta(days=random.randint(180, 1800))).strftime("%Y-%m-%d"),
-                    "last_active": (datetime.now() - timedelta(days=random.randint(0, 7))).strftime("%Y-%m-%d"),
-
-                    # Activity metrics
-                    "commits": commits,
-                    "slack_messages": slack_msgs,
-                    "meetings_attended": meetings,
-                    "prs_created": int(commits * 0.25),
-                    "prs_reviewed": code_reviews,
-                    "code_reviews": code_reviews,
-
-                    # Impact metrics
-                    "critical_bugs_fixed": critical_fixes,
-                    "features_delivered": features,
-                    "design_docs": design_docs,
-                    "mentoring_sessions": mentoring,
-                    "last_minute_fixes": last_minute_fixes,
-
-                    # Quality metrics
-                    "pr_approval_rate": round(pr_approval, 3),
-                    "bug_introduction_rate": round(bug_rate, 3),
-                    "code_coverage": round(code_coverage, 3),
-
-                    # Scores
-                    "visibility_score": round(visibility_score, 1),
-                    "impact_score": round(impact_score, 1),
-                    "quality_score": round(quality_score, 1),
-                    "collaboration_score": round(np.log1p(mentoring + code_reviews) * 20, 1),
-                    "raw_contribution": round(contribution_raw, 1),
-
-                    # Flags
-                    "tenure_months": random.randint(6, 72),
-                    "status": random.choice(["active", "active", "active", "on_leave"]),
-
-                    # Additional
-                    "primary_tech": random.choice(["Python", "Java", "JavaScript", "Go", "TypeScript"]),
-                    "current_project": random.choice(["Platform Modernization", "API Gateway", "Database Migration"]),
-                    "avatar_color": random.choice(["#58a6ff", "#3fb950", "#bc8cff", "#e3b341"])
+                    "join_date": "2024-01-01",
+                    "last_active": datetime.now().strftime("%Y-%m-%d"),
+                    
+                    "visibility_score": round(vis_score, 1),
+                    "impact_score": round(imp_score, 1),
+                    "quality_score": round(np.random.uniform(70, 95), 1),
+                    "contribution_score": round((vis_score + imp_score)/2, 1),
+                    
+                    "commits": n_commits,
+                    "slack_messages": 0,
+                    "code_reviews": n_reviews,
+                    "mentoring_sessions": int(n_reviews/3),
+                    "critical_bugs_fixed": int(n_issues/2),
+                    "features_delivered": n_prs,
+                    "design_docs": 0,
+                    
+                    "meeting_summary": ai_summary_text,
+                    "meeting_topics": combined_topics,
+                    
+                    "impact_level": "High" if imp_score > 60 else "Medium",
+                    "avatar_color": "#58a6ff"
                 })
 
             df = pd.DataFrame(employees)
-
-            # Apply scale-invariant scoring and ranking
-            df = DataManager._calculate_scale_invariant_scores(df)
-
-            # Add role-based flags
-            df["is_silent_architect"] = df["all_roles"].apply(lambda x: "Silent Architect" in x)
-            df["is_mentor"] = df["all_roles"].apply(lambda x: "Mentor" in x)
-            df["is_firefighter"] = df["all_roles"].apply(lambda x: "Firefighter" in x)
-            df["is_impact_driver"] = df["all_roles"].apply(lambda x: "Impact Driver" in x)
-            df["is_noisy_contributor"] = df["all_roles"].apply(lambda x: "Noisy Contributor" in x)
-            df["is_builder"] = df["all_roles"].apply(lambda x: "Builder" in x)
-
+            
+            if not df.empty:
+                df["is_silent_architect"] = df["all_roles"].apply(lambda x: "Silent Architect" in x)
+                df["is_mentor"] = df["all_roles"].apply(lambda x: "Mentor" in x)
+                df["is_firefighter"] = df["all_roles"].apply(lambda x: "Firefighter" in x)
+                df["is_impact_driver"] = df["all_roles"].apply(lambda x: "Impact Driver" in x)
+                df["is_noisy_contributor"] = df["all_roles"].apply(lambda x: "Noisy Contributor" in x)
+                df["is_builder"] = df["all_roles"].apply(lambda x: "Builder" in x)
+                
+                df = df.sort_values('contribution_score', ascending=False)
+                df['team_rank'] = range(1, len(df) + 1)
+            
             return df
 
         except Exception as e:
-            return pd.DataFrame([{
-                "employee_id": "ERR001",
-                "name": "System Error",
-                "role": "System",
-                "team": _team_name,
-                "visibility_score": 0,
-                "impact_score": 0,
-                "contribution_score": 0,
-                "all_roles": ["Normal Contributor"]
-            }])
+            st.error(f"Error loading local data: {e}")
+            return DataManager._generate_dummy_fallback(_team_name, size)
 
     @staticmethod
-    def _calculate_scale_invariant_scores(df: pd.DataFrame) -> pd.DataFrame:
-        """Calculate scores that are stable across team sizes"""
-        try:
-            # Normalize using percentiles within team
-            for col in ['raw_contribution', 'impact_score', 'quality_score', 'collaboration_score']:
-                if col in df.columns:
-                    df[f'{col}_percentile'] = df[col].rank(pct=True)
-
-            # Final contribution score (percentile-based, scale-invariant)
-            weights = {
-                'impact_score_percentile': 0.40,
-                'quality_score_percentile': 0.30,
-                'collaboration_score_percentile': 0.20,
-                'raw_contribution_percentile': 0.10
-            }
-
-            df['contribution_score'] = 0
-            for col, weight in weights.items():
-                if col in df.columns:
-                    df['contribution_score'] += df[col] * weight * 100
-
-            df['contribution_score'] = df['contribution_score'].round(1)
-
-            # Add rank within team
-            df = df.sort_values('contribution_score', ascending=False)
-            df['team_rank'] = range(1, len(df) + 1)
-
-            # Impact level classification
-            def get_impact_level(score):
-                if score >= 80:
-                    return "High"
-                elif score >= 60:
-                    return "Medium"
-                else:
-                    return "Low"
-
-            df['impact_level'] = df['impact_score'].apply(get_impact_level)
-
-            # Activity level classification
-            def get_activity_level(score):
-                if score >= 75:
-                    return "High"
-                elif score >= 50:
-                    return "Medium"
-                else:
-                    return "Low"
-
-            df['activity_level'] = df['visibility_score'].apply(get_activity_level)
-
-            return df
-
-        except Exception:
-            # Fallback
-            df['contribution_score'] = df['raw_contribution']
-            df = df.sort_values('contribution_score', ascending=False)
-            df['team_rank'] = range(1, len(df) + 1)
-            df['impact_level'] = "Medium"
-            df['activity_level'] = "Medium"
-            return df
-
-    @staticmethod
-    @st.cache_data(ttl=600)
-    def generate_repository_structure():
-        """Generate repository structure data"""
-        try:
-            repos = {
-                "platform-modernization": {
-                    "name": "platform-modernization",
-                    "description": "Migrating legacy monolith to microservices",
-                    "language": "Go",
-                    "stars": 42,
-                    "forks": 12,
-                    "last_updated": (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%d"),
-                    "folders": {
-                        "src": ["main.go", "config.go", "server.go"],
-                        "api": ["handlers.go", "routes.go", "middleware.go"],
-                        "pkg": ["database", "models", "utils"],
-                        "tests": ["unit_test.go", "integration_test.go"]
-                    },
-                    "assigned_members": ["Alex Smith", "Jordan Johnson", "Taylor Williams"]
-                },
-                "web-frontend": {
-                    "name": "web-frontend",
-                    "description": "React frontend application",
-                    "language": "TypeScript",
-                    "stars": 28,
-                    "forks": 8,
-                    "last_updated": (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d"),
-                    "folders": {
-                        "src": ["App.tsx", "index.tsx", "styles.css"],
-                        "components": ["Header.tsx", "Sidebar.tsx", "Dashboard.tsx"],
-                        "pages": ["Home.tsx", "Settings.tsx", "Analytics.tsx"],
-                        "utils": ["api.ts", "helpers.ts", "constants.ts"]
-                    },
-                    "assigned_members": ["Riley Garcia", "Avery Miller"]
-                },
-                "data-pipeline": {
-                    "name": "data-pipeline",
-                    "description": "ETL pipeline for analytics",
-                    "language": "Python",
-                    "stars": 35,
-                    "forks": 15,
-                    "last_updated": (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d"),
-                    "folders": {
-                        "src": ["main.py", "config.py", "logger.py"],
-                        "etl": ["extract.py", "transform.py", "load.py"],
-                        "models": ["user_model.py", "product_model.py"],
-                        "scripts": ["deploy.sh", "test.sh", "monitor.py"]
-                    },
-                    "assigned_members": ["Morgan Brown", "Casey Jones"]
-                }
-            }
-            return repos
-        except Exception:
-            return {}
+    def _generate_dummy_fallback(_team_name, size):
+        return pd.DataFrame([{
+            "name": "No Data Found", "impact_score": 0, "visibility_score": 0, 
+            "role": "None", "primary_role": "Normal Contributor", "all_roles": [],
+            "team_rank": 0, "last_active": "N/A", "commits": 0, "username": "none"
+        }])
 
     @staticmethod
     def get_member_activity_history(employee_id: str) -> pd.DataFrame:
         try:
             history = []
             start_date = datetime.now() - timedelta(days=180)
-
             for i in range(180):
                 date = start_date + timedelta(days=i)
-
-                # Simulate role changes
-                if i == 60:
-                    role_change = "Promoted to Senior Developer"
-                elif i == 120:
-                    role_change = "Became Tech Lead"
-                else:
-                    role_change = None
-
                 history.append({
                     "date": date.strftime("%Y-%m-%d"),
-                    "commits": random.randint(0, 5),
-                    "role_change": role_change,
-                    "project": random.choice(["Platform Modernization", "Web Frontend", "Data Pipeline"]),
-                    "impact_event": random.choice([None, None, "Critical Bug Fix", "Feature Launch", "Design Review"])
+                    "commits": np.random.randint(0, 5),
+                    "role_change": None
                 })
-
             return pd.DataFrame(history)
-        except Exception:
-            return pd.DataFrame()
+        except: return pd.DataFrame()
+
+    @staticmethod
+    @st.cache_data(ttl=600)
+    def generate_repository_structure():
+        return {
+            "platform-modernization": {"name": "platform-modernization", "description": "Migrating legacy monolith", "language": "Go", "stars": 42, "forks": 12, "last_updated": "2024-01-01", "folders": {"src": ["main.go"], "api": ["handlers.go"]}, "assigned_members": ["Alex Smith"]},
+        }
 
 
 class AuthenticationSystem:
