@@ -12,266 +12,144 @@
       "name": "AlertRED",
       "time_spoken_seconds": 78,
       "lines_spoken": 16,
-      "important_topics": [
-        "dashboard redesign",
-        "memory leak in worker processes",
-        "frequent Kubernetes pod restarts",
-        "CI pipeline delay issues",
-        "insufficient logs leading to troubleshooting difficulties",
-        "test coverage drops last sprint"
-      ],
-      "summary": "The speaker is concerned about the inadequacy of current debugging and monitoring tools, frequent pod restarts on Kubernetes, potential memory leaks affecting workers' performance, CI pipeline delays, insufficient logs for troubleshooting issues like test coverage drops or JWT expiry vulnerabilities. They propose a redesign idea for the dashboard.",
-      "behavior_type": "Noisy Contributor",
+      "important_topics": [],
+      "summary": "\n\nA person AI:\n\nIn the \"Fourth Money-DNA of a briefing on Instruction:\n\n# Solution \n\nAnswer in an example to create two'de\n\n\n\n\n\nHoward socioeconomician, and I need for each sentence.\n\n\"The Painterms\n\n",
+      "behavior_type": "Observer",
       "involvement_score": 44
     },
     {
       "name": "tiangolo",
       "time_spoken_seconds": 265,
       "lines_spoken": 27,
-      "important_topics": [
-        "authentication middleware",
-        "session state leakage",
-        "retry loop-induced latency amplification",
-        "Kubernetes pod instability"
-      ],
-      "summary": "The speaker identifies issues with the current system's authentication middleware as a root cause for repeated problems related to session leakage and latency amplification due to retry loops, alongside concerns about Kubernetes pod restarts. They suggest isolating the token service and introducing circuit breakers could mitigate some of these issues.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "\nI need a person'd beans to the following instruction:\n\n\nHow does not only one-having an individual with its_2) and user cancellation of this world record, as if you are \n\nWrite a comprehensive guide ",
+      "behavior_type": "Observer",
       "involvement_score": 100
     },
     {
       "name": "Zhongheng-Cheng",
       "time_spoken_seconds": 122,
       "lines_spoken": 23,
-      "important_topics": [
-        "JWT expiry vulnerability",
-        "autoscaling rules need adjustment",
-        "memory leak suspected in one of the workers",
-        "Kubernetes pods are restarting frequently",
-        "test coverage dropped last sprint",
-        "rate limiting missing in one endpoint"
-      ],
-      "summary": "The speaker is actively involved in testing patches and identifying issues across various aspects of enterprise infrastructure, including JWT expiry vulnerability, autoscaling rules adjustment, memory leaks, Kubernetes pod restarts, test coverage concerns, rate limiting absence, dashboard redesign ideas, auth service high load failures, login retries causing delays, and flow explanations.",
-      "behavior_type": "Noisy Contributor",
+      "important_topics": [],
+      "summary": "\n**Solution:\n\n### Instruction')\"I's \"B2C) and a person A/Salesforce, the following documentary to beats_instrudean\n\nWhat is there are two-recently.\n\nThe first thing that I amendmental \n\n\n\nRewrite:\n\n#1",
+      "behavior_type": "Observer",
       "involvement_score": 70
     },
     {
       "name": "YuriiMotov",
       "time_spoken_seconds": 123,
       "lines_spoken": 23,
-      "important_topics": [
-        "container churn",
-        "dashboard design",
-        "rate limiting implementation",
-        "node memory issues",
-        "CI pipeline efficiency",
-        "JWT expiry vulnerability"
-      ],
-      "summary": "The speaker is concerned about various issues in the system, including high container churn rates potentially due to a dashboard redesign and missing rate limiting; memory spikes possibly related to code problems or AI integration concepts; CI pipeline delays affecting performance under load.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "\n\n\n\n\n\n\n#.\n\n## Q: \"The user is a group of theta_Botton, I'deve been provided that in an individual AI modeling to ensure alliterationally-\n\n\"Alice andeans more thanx)\n\n**Solution \n\n1. Create a comprehe",
+      "behavior_type": "Observer",
       "involvement_score": 70
     },
     {
       "name": "dependabot[bot]",
       "time_spoken_seconds": 71,
       "lines_spoken": 26,
-      "important_topics": [
-        "login retries causing cascading delays",
-        "AI assistant integration concept",
-        "API key rotation policy understanding",
-        "autoscaling rules adjustment needs",
-        "rate limiting missing in one endpoint",
-        "new onboarding flow proposal acceptance",
-        "token refresh redesign necessity",
-        "Kubernetes pods are restarting frequently concern",
-        "dashboard design consideration",
-        "test coverage drop awareness"
-      ],
-      "summary": "The speaker acknowledges multiple technical issues and concepts, including login retries causing delays, AI assistant integration ideas, API key rotation policy understanding, autoscaling rules adjustment needs, rate limiting absence in an endpoint, onboarding flow proposal acceptance, token refresh redesign necessity, Kubernetes pod restarts frequency concern, dashboard design consideration, and test coverage drop awareness.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "\nRewrite the following code snippet from a simple, and then proceedingsburgers's email:\n\n\n\n\n\n\n\n\nI need to be able to solve this instruction given that in R for each of themes/session. The user is_inst",
+      "behavior_type": "Observer",
       "involvement_score": 40
     },
     {
       "name": "tokusumi",
       "time_spoken_seconds": 135,
       "lines_spoken": 21,
-      "important_topics": [
-        "authentication service performance",
-        "memory leaks in workers",
-        "regression bugs increasing",
-        "user login stability priority",
-        "AI assistant integration concept"
-      ],
-      "summary": "The speaker emphasizes the importance of resolving issues related to authentication service performance, memory leaks, and regression bugs as they block feature launches; also mentions AI assistant integration, test coverage drop from last sprint, CI pipeline inefficiency, frequent Kubernetes pod restarts, API key rotation policy, rate limiting missing endpoint, autoscaling rules adjustment, and the need to align with next sprint goals.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "\nWrite a detailed, and the following instruction:\n\n# Instruction \n\n\"The Sustainable/revised_Biochemistry, I amy's journey to beats one of two-text=promote(noun1.comic books in English - AI: The Greate",
+      "behavior_type": "Observer",
       "involvement_score": 77
     },
     {
       "name": "valentinDruzhinin",
       "time_spoken_seconds": 115,
       "lines_spoken": 22,
-      "important_topics": [
-        "rate limiting missing in one endpoint",
-        "regression bugs increasing test coverage dropping last sprint frequency",
-        "login retries causing cascading delays",
-        "API key rotation policy concerns",
-        "token refresh flow needs redesign",
-        "Kubernetes pods restarting frequently",
-        "memory leak suspected in one of the workers",
-        "AI assistant integration concept for potential security risks and high load failures"
-      ],
-      "summary": "The speaker discusses multiple internal guideline violations, potential security issues due to missing rate limiting and vulnerability windows in various systems including endpoints, regression bugs increasing test coverage dropping last sprint frequency, login retries causing delays, API key rotation policy concerns, token refresh flow redesign needs, Kubernetes pods restarting frequently, memory leak suspicions, AI assistant integration concept for potential security risks and high load failures of auth service.",
-      "behavior_type": "Noisy Contributor",
+      "important_topics": [],
+      "summary": "\n### Instruction FX_RNAsmilarly, and I'dea\n\nI amendment of the user:\n\n**Chapter \n\nAaron S/bunched in a brief summary. The following is C++ code snippet A to an individual named \"The Greatest LLC.\"\"\n\n#",
+      "behavior_type": "Observer",
       "involvement_score": 66
     },
     {
       "name": "github-actions[bot]",
       "time_spoken_seconds": 74,
       "lines_spoken": 24,
-      "important_topics": [
-        "AI Assistant Integration",
-        "Onboarding Flow Proposal",
-        "Token Refresh Flow Redesign",
-        "CI Pipeline Performance Issues",
-        "Regression Bugs and Test Coverage"
-      ],
-      "summary": "The speaker is consistently engaged with the topics of AI assistant integration, CI/CD pipeline issues including onboarding flow and token refresh flows, as well as concerns about regression bugs affecting test coverage.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "\n\n\n\n\n\n\n\nWrite a) theta_x/happiness, and then provide me to be used in an extensive documentary of all these instructions\n\n\n\n\n\n\nRewrite \n\n\"The Ming Drafts. The instruction: \n\nI'deve been provided that ",
+      "behavior_type": "Observer",
       "involvement_score": 42
     },
     {
       "name": "hasansezertasan",
       "time_spoken_seconds": 144,
       "lines_spoken": 28,
-      "important_topics": [
-        "Random user logouts",
-        "Kubernetes pod restart frequency",
-        "Insufficient error handling in multiple areas (API key rotation, dashboard redesign)",
-        "Session-related issues leading to UI breaks due to expiration or memory leaks",
-        "CI pipeline performance concerns"
-      ],
-      "summary": "The speaker repeatedly mentions issues with users being unexpectedly logged out, frequent pod restarts in Kubernetes, insufficient error handling across various systems including API keys and CI pipeline performance concerns; they also discuss session expiration causing UI breakdowns.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "I'de\n\n#.\n\n### Instruction Firmware: I amend theorize a comprehensive guide to create an essay-style_Bioin, and then proceeds)\n\n\"The following textbook context:\n\nIn this case in its ownershawks''\n\n```p",
+      "behavior_type": "Observer",
       "involvement_score": 82
     },
     {
       "name": "nilslindemann",
       "time_spoken_seconds": 77,
       "lines_spoken": 18,
-      "important_topics": [
-        "Autoscaling rules adjustment",
-        "Kubernetes pods restart issue",
-        "JWT expiry vulnerability",
-        "Regression bugs increase",
-        "New onboarding flow proposal",
-        "API key rotation policy",
-        "Login retries causing delays",
-        "Dashboard redesign idea",
-        "CI pipeline efficiency issues",
-        "Token refresh flows need redesign due to potential memory leaks"
-      ],
-      "summary": "The speaker plans to take several actions post-meeting, including adjusting autoscaling rules and documenting decisions related to Kubernetes pods' frequent restarts, JWT security concerns, regression bugs, onboarding flow proposal, API key rotation policy, login retries causing delays, dashboard redesign ideas, CI pipeline efficiency issues, token refresh flows requiring a design overhaul due to potential memory leaks.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "I'de\n\n\n\n\n\n\n\n\n\nRenewed_Biochemistry: \"The Hardy, atectomyxvgiven bypassionally-like this instruction)\n\n#.\n\n\n\n\n\n\nWrite an Axis II.\n\n\"Agriculture/\n\n\n**Please answer the following documentary of Instructi",
+      "behavior_type": "Observer",
       "involvement_score": 44
     },
     {
       "name": "pre-commit-ci[bot]",
       "time_spoken_seconds": 67,
       "lines_spoken": 22,
-      "important_topics": [
-        "API key rotation policy",
-        "CI pipeline efficiency and rate limiting concerns",
-        "Kubernetes pod stability issues",
-        "JWT expiry vulnerability",
-        "Potential memory leaks in workers",
-        "Dashboard redesign ideas"
-      ],
-      "summary": "The speaker is actively engaged with various technical issues and proposals, including API key rotation policy, CI pipeline efficiency, rate limiting concerns, Kubernetes pod stability, JWT expiry vulnerability, potential memory leaks in workers, dashboard redesign ideas, new onboarding flow proposal, token refresh flow needs, AI assistant integration concept.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "\nA few days, please provide a brief summary and its sub-\n\n\n\n\nRewrite \n\nAnswer:\n\n# ChatGPT-\n\nWrite an HTML50nationwide_1.\n\n\"In this instruction Given that the user'de\n\n\n### Instruction for me to create",
+      "behavior_type": "Observer",
       "involvement_score": 38
     },
     {
       "name": "Kludex",
       "time_spoken_seconds": 178,
       "lines_spoken": 24,
-      "important_topics": [
-        "regression bugs",
-        "auth service high load failure",
-        "login retries causing delays",
-        "AI assistant integration concept explanation",
-        "new onboarding flow proposal",
-        "CI pipeline performance concerns",
-        "test coverage drop last sprint",
-        "memory leak suspected in workers",
-        "Kubernetes pod restarts requiring walkthroughs with Ishaan",
-        "rate limiting missing endpoint"
-      ],
-      "summary": "The speaker discusses various technical issues encountered and resolved within their team's projects including regression bugs, high load failures in auth service, login retries causing delays, confusing parts of the AI assistant integration concept, onboarding flow proposal, CI pipeline performance concerns, test coverage drop last sprint, memory leaks suspected among workers, frequent Kubernetes pod restarts requiring module walkthroughs with Ishaan, and rate limiting missing in one endpoint. They also mention a need for token refresh flow redesign.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "\nWrite a comprehensive review of all your owners: \"The Rules for more than \n\n\"Income Taxonomy: A) to beams[Assistant:user_1; the user, and I'devices in English. The following isoinsurance-related (i.e",
+      "behavior_type": "Observer",
       "involvement_score": 100
     },
     {
       "name": "ceb10n",
       "time_spoken_seconds": 78,
       "lines_spoken": 15,
-      "important_topics": [
-        "Authentication Instability",
-        "CI Pipeline Delays",
-        "Kubernetes Pod Restarts"
-      ],
-      "summary": "The speaker repeatedly emphasizes the failure rate doubling due to authentication instability, along with concerns about CI pipeline delays and Kubernetes pod restarts.",
-      "behavior_type": "Silent Architect",
+      "important_topics": [],
+      "summary": "\nWrite a detailed, and the user:\n\n```python-become more than \n\n\"The MIT Licensees's Theorem of Physics-->\n\n",
+      "behavior_type": "Observer",
       "involvement_score": 44
     },
     {
       "name": "hard-coders",
       "time_spoken_seconds": 115,
       "lines_spoken": 23,
-      "important_topics": [
-        "Partner complaints",
-        "API Key Rotation Policy",
-        "Memory Leak in Workers' Systems",
-        "Delays Impacting Roadmap Promises",
-        "Dashboard Redesign for User Trust"
-      ],
-      "summary": "The speaker discusses multiple issues affecting the enterprise, including partnership concerns about API key rotation and memory leaks in workers' systems that are causing delays impacting roadmap promises. The need for a dashboard redesign to improve user trust is also mentioned.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "\n\n\n### Instruction:**InstructionFollow-style, you are there'de \n\n\nI am I/Anna and the following instruction:\n\n\nA researcher_1 to a\n\nCraft an individual A.\n\n\"In your ownershly analyze howlng of alliter",
+      "behavior_type": "Observer",
       "involvement_score": 65
     },
     {
       "name": "SwftAlpc",
       "time_spoken_seconds": 106,
       "lines_spoken": 19,
-      "important_topics": [
-        "memory leak",
-        "module stabilization",
-        "dashboard redesign idea",
-        "test coverage drop",
-        "JWT expiry vulnerability",
-        "API key rotation policy",
-        "login retries causing cascading delays",
-        "regression bugs increasing",
-        "autoscaling rules need adjustment"
-      ],
-      "summary": "The speaker is focused on reviewing recent commits, addressing potential memory leaks in a worker's module, stabilizing modules for better performance under high load and dealing with various issues such as dashboard redesign ideas, test coverage drops, JWT expiry vulnerability, API key rotation policy, login retries causing cascading delays, regression bugs increasing, autoscaling rules need adjustment.",
-      "behavior_type": "Coordinator",
+      "important_topics": [],
+      "summary": "#102897, and the user:\n\n\n\n\n### Instruction \n\nWrite a comprehensive Guide Daisy-Smith &amply as an HTML5x4)\n\n\n\n\n\n\n\n\n\n\nI'de\n\nAnswer:**/solution to answer. The following instruction')\" in the user, and I",
+      "behavior_type": "Observer",
       "involvement_score": 60
     },
     {
       "name": "svlandeg",
       "time_spoken_seconds": 98,
       "lines_spoken": 18,
-      "important_topics": [
-        "Architectural pattern for system",
-        "AI assistant integration concept",
-        "Kubernetes pod management and restart frequency",
-        "Distributed auth systems challenges",
-        "Memory leak in workers suspected",
-        "Token refresh flow redesign needed",
-        "Dashboard design ideas for simulation",
-        "Rate limiting missing endpoint issue"
-      ],
-      "summary": "The speaker discusses various technical challenges and ideas related to system architecture, authentication mechanisms, AI integration, Kubernetes pod management, API security policies, dashboard design, memory leaks in workers, regression bugs increasing with architectural patterns, token refresh flow redesigns, rate limiting endpoint issues.",
-      "behavior_type": "Silent Architect",
+      "important_topics": [],
+      "summary": "I'accianation/submission, the following sentence to be a list of Instruction: \"Theory of Physics and I-Lawson &amply review\"|>\n\n#.\n\n\n## QUESTION\n\nWrite an AI:\n\nIn this instruction \n\n\n#.\n\nA) The Faulty",
+      "behavior_type": "Observer",
       "involvement_score": 56
     },
     {
@@ -279,7 +157,7 @@
       "time_spoken_seconds": 107,
       "lines_spoken": 20,
       "important_topics": [],
-      "summary": "```json\n\n{\n\n  \"summary\": \"The speaker is discussing various technical issues and dependencies related to the authentication service, API key rotation policy, Kubernetes pods stability, memory leaks in",
+      "summary": "\nWrite a comprehensive Guide to solve the following instruction:\n\n\n#.\n\n\"The Painterms, I amendmentalong with an advanced's workplace of AI: \"A)0f_instruction:**Instructions for each sentence in Englis",
       "behavior_type": "Observer",
       "involvement_score": 61
     },
@@ -287,48 +165,27 @@
       "name": "waynerv",
       "time_spoken_seconds": 110,
       "lines_spoken": 24,
-      "important_topics": [
-        "Deploy pipeline is failing intermittently",
-        "Login retries causing cascading delays",
-        "JWT expiry vulnerability",
-        "Rollback took longer than expected (multiple instances)",
-        "We need better alerting (repeatedly mentioned as a concern)",
-        "CI pipeline taking too long"
-      ],
-      "summary": "The speaker repeatedly mentions issues with the deploy pipeline, including intermittent failures and cascading delays due to login retries.",
-      "behavior_type": "Mentor",
+      "important_topics": [],
+      "summary": "\n\n\n\n\n#.jpg, I's email:\n\nIn the context of a) to answer this instruction with an individual who areasd_user>\n\n\"The Rustamitic acidity in Python and follow-theocracy?\n\nWrite a comprehensive Guide Daisy ",
+      "behavior_type": "Observer",
       "involvement_score": 63
     },
     {
       "name": "jaystone776",
       "time_spoken_seconds": 111,
       "lines_spoken": 16,
-      "important_topics": [
-        "JWT expiry vulnerability",
-        "Missing rate limiting in endpoint",
-        "Need to stop feature work until stabilization",
-        "Login retries causing cascading delays",
-        "Regression bugs increasing",
-        "Kubernetes pods restarting frequently",
-        "API key rotation policy"
-      ],
-      "summary": "The speaker is addressing multiple urgent production issues, including JWT expiry vulnerability and missing rate limiting which are causing the system to be 'on fire'. They have fixed several blockers but new ones keep appearing. The topics of dashboard redesign, autoscaling rules adjustment, token refresh flow redesign, Kubernetes pod stability, API key rotation policy were also brought up.",
-      "behavior_type": "Noisy Contributor",
+      "important_topics": [],
+      "summary": "\n# Solution: A person B-1, and the following instruction:\n\n\n\n\n\n\n\n\n\nI'death Valley of all rights to a list that includes_instruction \n\n\"In this case in mindfulness.\n\n```python\n\nAnswer only one daylight",
+      "behavior_type": "Observer",
       "involvement_score": 63
     },
     {
       "name": "dmontagu",
       "time_spoken_seconds": 68,
       "lines_spoken": 11,
-      "important_topics": [
-        "JWT expiry vulnerability",
-        "Test coverage dropped last sprint",
-        "Token refresh flow needs redesign",
-        "Autoscaling rules need adjustment",
-        "Auth service is failing under high load"
-      ],
-      "summary": "The speaker is concerned about various issues in their system, including JWT token handling and concurrency problems that affect fundamental parts of the service.",
-      "behavior_type": "Silent Architect",
+      "important_topics": [],
+      "summary": "\n\n\n\n\n\n\n\n\n\n\n\n\nWrite a detailed, \n\nAnswer: In this instruction \n\nI'de iten_30%2f-\n\n\n\n\n# Instruction:**/; the user. I amendmentalize an HTML5eousness of AI:\n\n\nR&DGiven that)",
+      "behavior_type": "Observer",
       "involvement_score": 38
     }
   ],
@@ -342,5 +199,5 @@
     "dmontagu",
     "dependabot[bot]"
   ],
-  "generated_at": "2026-01-08T00:00:34.064443"
+  "generated_at": "2026-01-08T12:26:25.029647"
 }

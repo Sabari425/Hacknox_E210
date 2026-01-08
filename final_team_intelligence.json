@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-08T03:24:24.839808",
+  "generated_at": "2026-01-08T12:29:43.110914",
   "members": [
     {
       "name": "tiangolo",
@@ -18,14 +18,14 @@
     {
       "name": "github-actions[bot]",
       "merged_score": 41.34,
-      "final_behavior": "Coordinator",
+      "final_behavior": "Observer",
       "git_score": 40.9,
       "meeting_score": 42
     },
     {
       "name": "kludex",
       "merged_score": 40.0,
-      "final_behavior": "Mentor",
+      "final_behavior": "Noisy Contributor",
       "git_score": 0,
       "meeting_score": 100
     },
@@ -39,7 +39,7 @@
     {
       "name": "hasansezertasan",
       "merged_score": 32.8,
-      "final_behavior": "Mentor",
+      "final_behavior": "Noisy Contributor",
       "git_score": 0,
       "meeting_score": 82
     },
@@ -60,7 +60,7 @@
     {
       "name": "nilslindemann",
       "merged_score": 29.0,
-      "final_behavior": "Mentor",
+      "final_behavior": "Observer",
       "git_score": 19.0,
       "meeting_score": 44
     },
@@ -79,16 +79,16 @@
       "meeting_score": 66
     },
     {
-      "name": "jaystone776",
+      "name": "waynerv",
       "merged_score": 25.2,
       "final_behavior": "Noisy Contributor",
       "git_score": 0,
       "meeting_score": 63
     },
     {
-      "name": "waynerv",
+      "name": "jaystone776",
       "merged_score": 25.2,
-      "final_behavior": "Mentor",
+      "final_behavior": "Noisy Contributor",
       "git_score": 0,
       "meeting_score": 63
     },
@@ -135,14 +135,14 @@
       "meeting_score": 0
     },
     {
-      "name": "pre-commit-ci[bot]",
+      "name": "dmontagu",
       "merged_score": 15.2,
       "final_behavior": "Observer",
       "git_score": 0,
       "meeting_score": 38
     },
     {
-      "name": "dmontagu",
+      "name": "pre-commit-ci[bot]",
       "merged_score": 15.2,
       "final_behavior": "Observer",
       "git_score": 0,
@@ -156,14 +156,14 @@
       "meeting_score": 0
     },
     {
-      "name": "mezgoodle",
+      "name": "marcelomarkus",
       "merged_score": 8.4,
       "final_behavior": "Observer",
       "git_score": 14.0,
       "meeting_score": 0
     },
     {
-      "name": "marcelomarkus",
+      "name": "mezgoodle",
       "merged_score": 8.4,
       "final_behavior": "Observer",
       "git_score": 14.0,
@@ -184,42 +184,7 @@
       "meeting_score": 0
     },
     {
-      "name": "champ-sk",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "ads2024",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "vitalvalid",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "dhruvgoyal-ai",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "anirudharrepu",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "dilkhushyash",
+      "name": "sankarebarri",
       "merged_score": 5.28,
       "final_behavior": "Observer",
       "git_score": 8.8,
@@ -233,28 +198,14 @@
       "meeting_score": 0
     },
     {
-      "name": "pallaprolus",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "mkanetsuna",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "vahidzhe",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
       "name": "bokshitsky",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "champ-sk",
       "merged_score": 5.28,
       "final_behavior": "Observer",
       "git_score": 8.8,
@@ -268,84 +219,7 @@
       "meeting_score": 0
     },
     {
-      "name": "manav363",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "uydev",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "tsayin4",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "westinjiang",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "estebandalelr",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "johnslavik",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "dezh1110",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "gabyorel",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "prajun-v-zilmoney",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "sankarebarri",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "timakaa",
-      "merged_score": 5.28,
-      "final_behavior": "Observer",
-      "git_score": 8.8,
-      "meeting_score": 0
-    },
-    {
-      "name": "adarshbennur",
+      "name": "vitalvalid",
       "merged_score": 5.28,
       "final_behavior": "Observer",
       "git_score": 8.8,
@@ -359,10 +233,129 @@
       "meeting_score": 0
     },
     {
-      "name": "mvanderlee",
-      "merged_score": 4.56,
+      "name": "johnslavik",
+      "merged_score": 5.28,
       "final_behavior": "Observer",
-      "git_score": 7.6,
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "mkanetsuna",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "anirudharrepu",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "adarshbennur",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "dilkhushyash",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "gabyorel",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "manav363",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "timakaa",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "tsayin4",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "dezh1110",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "vahidzhe",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "uydev",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "pallaprolus",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "estebandalelr",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "prajun-v-zilmoney",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "dhruvgoyal-ai",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "westinjiang",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
+      "meeting_score": 0
+    },
+    {
+      "name": "ads2024",
+      "merged_score": 5.28,
+      "final_behavior": "Observer",
+      "git_score": 8.8,
       "meeting_score": 0
     },
     {
@@ -387,7 +380,7 @@
       "meeting_score": 0
     },
     {
-      "name": "ricky512227",
+      "name": "mvanderlee",
       "merged_score": 4.56,
       "final_behavior": "Observer",
       "git_score": 7.6,
@@ -395,6 +388,13 @@
     },
     {
       "name": "p-muench",
+      "merged_score": 4.56,
+      "final_behavior": "Observer",
+      "git_score": 7.6,
+      "meeting_score": 0
+    },
+    {
+      "name": "ricky512227",
       "merged_score": 4.56,
       "final_behavior": "Observer",
       "git_score": 7.6,

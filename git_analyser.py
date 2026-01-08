@@ -131,3 +131,35 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(final_output, f, indent=2)
 
 print("✅ Git intelligence generated:", OUTPUT_FILE)
+
+# -------------------------
+# SAVE TO DATABASE (VERSIONED)
+# -------------------------
+from db_engine import get_db, get_next_version
+
+print("🗄️ Saving git intelligence to database...")
+
+db = get_db()
+version = get_next_version("git_intelligence")
+
+for member in final_output["members"]:
+    scores = member["git_scores"]
+
+    db.execute("""
+        INSERT INTO git_intelligence VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        version,
+        member["name"],
+        scores["work_importance"],
+        scores["pr_involvement"],
+        scores["comment_quality"],
+        scores["activity"],
+        scores["collaboration_health"],
+        scores["git_score"],
+        member["git_behavior"],
+        final_output["generated_at"]
+    ))
+
+db.close()
+
+print(f"✅ Stored git intelligence as version v{version}")

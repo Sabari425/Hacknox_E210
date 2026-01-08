@@ -185,3 +185,34 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(final_output, f, indent=2)
 
 print("✅ FINAL PRODUCT FILE CREATED:", OUTPUT_FILE)
+
+# --------------------------
+# 7. SAVE TO DATABASE (VERSIONED)
+# --------------------------
+from db_engine import get_db, get_next_version
+
+print("🗄️ Saving meeting intelligence to database...")
+
+db = get_db()
+version = get_next_version("meeting_intelligence")
+
+for member in final_members:
+    db.execute("""
+        INSERT INTO meeting_intelligence VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        version,
+        member["name"],
+        member["involvement_score"],
+        member["time_spoken_seconds"],
+        member["lines_spoken"],
+        member["behavior_type"],
+        json.dumps(member["important_topics"]),
+        member["summary"],
+        final_output["overall_meeting_summary"],
+        json.dumps(final_output["meeting_topics"]),
+        final_output["generated_at"]
+    ))
+
+db.close()
+
+print(f"✅ Stored as meeting intelligence version v{version}")
